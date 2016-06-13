@@ -11,5 +11,6 @@ int main()
 	printf("ptr_0 = %d\tstr = %d\n\n", (int)ptr_1, (int)str_1);
 	printf("diff = %d\n\n", (int)str - (int)ptr);
 	printf("diff_1 = %d\n\n", (int)str_1 - (int)ptr_1);
+	printf("Done !!\n");
 	return 0;
 }

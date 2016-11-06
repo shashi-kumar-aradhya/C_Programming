@@ -1,0 +1,2 @@
+gcc -Wall -g -c Undo.c
+gcc -Wall -g -c -o exe test.c 

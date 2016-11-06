@@ -19,6 +19,7 @@ void fun(int *a)
 	printf("In fun\n");
 	printf("a = %p\n", a);
 	printf("*a = %d\n", *a);
+	a = malloc(sizeof(int));
 	*a = 15;
 	printf("In fun\n");
 	printf("a = %p\n", a);

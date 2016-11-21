@@ -13,7 +13,6 @@ node * create_node(int value)
 	temp->next = NULL;
 	return temp;
 }
-
 ret insert_front(node ** head, int value)
 {
 	node *temp = create_node(value);
@@ -62,19 +61,19 @@ void display(node *head)
 }
 void reverse(node **head)
 {
-        node *prev = NULL;
-        node *temp = NULL;
-        node *test = *head;
-        if (!test || !test->next) {
-                return;
-        }
-        while (test->next) {
-                prev = test->next;
-                test->next = temp;
-                temp = test;
-                test = prev;
-        }
-        test->next = temp;
-        *head = test;
+	node *prev = NULL;
+	node *temp = NULL;
+	node *test = *head;
+	/*        if (!test || !test->next) {
+		  return;
+		  }
+	 */
+	while (test) {
+		prev = test->next;
+		test->next = temp;
+		temp = test;
+		test = prev;
+	}
+	//test->next = temp;
+	*head = temp;
 }
-

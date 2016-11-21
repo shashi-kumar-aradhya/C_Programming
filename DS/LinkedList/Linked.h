@@ -22,5 +22,8 @@ ret del_front(node **);
 ret del_rear(node **);
 ret del_after(node **, node *);
 void display(node *);
+<<<<<<< HEAD
 void reverse(node **head);
+=======
+>>>>>>> f18f1ef9d2bdb96b701fd2f108d21360f58a1fa2
 #endif

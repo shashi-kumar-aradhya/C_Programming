@@ -59,6 +59,10 @@ void display(node *head)
 	}
 	return;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fb4a5c514e0e84880e51bad97eee21fcab272aef
 void reverse(node **head)
 {
 	node *prev = NULL;
@@ -77,3 +81,9 @@ void reverse(node **head)
 	//test->next = temp;
 	*head = temp;
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f18f1ef9d2bdb96b701fd2f108d21360f58a1fa2
+
+>>>>>>> fb4a5c514e0e84880e51bad97eee21fcab272aef

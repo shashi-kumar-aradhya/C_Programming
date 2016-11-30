@@ -1,0 +1,19 @@
+iroot@beaglebone:/tmp# echo "testing links" >> test.txt
+root@beaglebone:/tmp# more hardlink
+testing links
+root@beaglebone:/tmp# more softlink
+testing links
+root@beaglebone:/tmp# mkdir subdirectory
+root@beaglebone:/tmp# mv test.txt subdirectory/
+root@beaglebone:/tmp# more hardlink
+testing links
+root@beaglebone:/tmp# more softlink
+softlink: No such file or directory
+You can see that when the test.txt fi le is moved to the subdirectory, the soft
+link breaks but the hard link still works perfectly. Therefore, symbolic links
+are not updated when the linked fi le is moved, but hard links always refer to
+the source, even if moved or removed. Just to illustrate the last point, the fi le
+test.txt can be removed using the following:
+root@beaglebone:/tmp# rm subdirectory/test.txt
+root@beaglebone:/tmp# more hardlink
+testing links

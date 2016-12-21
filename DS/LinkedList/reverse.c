@@ -55,13 +55,33 @@ int main()
 {
 	node *head = NULL;
 	int i;
-	for(i = 0; i < 5; i++) {
+	for(i = 0; i < 100; i++) {
 		insert_rear(&head, i);
 	}
+	printf("Before delete = %d\n", list_count(head));
+/*
+	while(NULL != head) {
+		i = rand() % 100;
+//		printf("value = %d\n", i);
+	
+		if( FAILURE == delete_key(&head, i)) 
+			printf("Key is already deleted\n");
+	
+	}
+	printf("After delete = %d\n", list_count(head));
+*/
+	i = rand() % 100;
+	if (SUCCESS ==	key_check(head, i))
+		printf("Key is present\n");
+	i = rand() % 100;
+	if (FAILURE ==	key_check(head, i+100))
+		printf("Key is not present\n");
+/*
 	printf("*********Original list**********\n");
 	display(head);
 	reverse(&head);
 	printf("\n\n*********reverse list**********\n");
 	display(head);
+*/
 	return 0;
 }

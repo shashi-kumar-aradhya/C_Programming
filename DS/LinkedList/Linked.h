@@ -1,6 +1,6 @@
 #ifndef __LLIST__
 #define __LLIST__
-
+#include <stdlib.h>
 #define SUCCESS 0
 #define FAILURE -1
 
@@ -18,16 +18,12 @@ node * create_node(int value);
 ret insert_front(node **, int);
 ret insert_rear(node **, int);
 ret insert_after(node *, int);
+ret delete_key(node **, int);
 ret del_front(node **);
 ret del_rear(node **);
 ret del_after(node **, node *);
 void display(node *);
-<<<<<<< HEAD
 void reverse(node **head);
-=======
-<<<<<<< HEAD
-void reverse(node **head);
-=======
->>>>>>> f18f1ef9d2bdb96b701fd2f108d21360f58a1fa2
->>>>>>> fb4a5c514e0e84880e51bad97eee21fcab272aef
+int list_count(node *head);
+ret key_check(node *, int);
 #endif

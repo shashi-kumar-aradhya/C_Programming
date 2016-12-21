@@ -13,6 +13,8 @@ node * create_node(int value)
 	temp->next = NULL;
 	return temp;
 }
+
+
 ret insert_front(node ** head, int value)
 {
 	node *temp = create_node(value);
@@ -23,6 +25,8 @@ ret insert_front(node ** head, int value)
 	*head = temp;
 	return SUCCESS;
 }
+
+
 ret insert_rear(node **head, int value)
 {
 	node *temp = create_node(value);
@@ -40,6 +44,8 @@ ret insert_rear(node **head, int value)
 	ptr->next = temp;
 	return SUCCESS;
 }
+
+
 ret insert_after(node *head, int value)
 {
 	node *temp = create_node(value);
@@ -55,14 +61,13 @@ void display(node *head)
 {
 	while (NULL != head) {
 		printf("Value = %d\n", head->value);
+
 		head = head->next;
 	}
 	return;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fb4a5c514e0e84880e51bad97eee21fcab272aef
+
+
 void reverse(node **head)
 {
 	node *prev = NULL;
@@ -81,9 +86,42 @@ void reverse(node **head)
 	//test->next = temp;
 	*head = temp;
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f18f1ef9d2bdb96b701fd2f108d21360f58a1fa2
 
->>>>>>> fb4a5c514e0e84880e51bad97eee21fcab272aef
+ret delete_key(node **head, int key)
+{
+	node * prev = NULL;
+	node * cur = *head;
+	/* check till end of list/key is present*/	
+	while((NULL != cur) && (key != cur->value)) {
+		prev = cur;
+		cur = cur->next;	
+	}
+	/*if key is present*/
+	if(NULL != cur) {
+		/*not first element*/
+		if (prev != NULL) {
+			prev->next = cur-> next;
+		} else {
+			*head = cur->next;
+		}
+		free(cur);
+		return SUCCESS;
+	}
+	return FAILURE;
+}
+
+int list_count(node *head)
+{
+	if(head != NULL)
+		return (1 + list_count(head->next));
+	return 0;
+}
+
+ret key_check(node *head, int key)
+{
+	if((NULL != head) && (key != head-> value)) 
+		return key_check(head->next, key);
+	if(NULL == head)
+		return FAILURE;
+	return SUCCESS;
+}

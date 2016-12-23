@@ -159,4 +159,35 @@ void nth_node_end(node *head, int count)
 	printf("n-th node : %d\n", temp->value);
 	return;
 }
+void circular(node *head)
+{
+	
+	node * slow =  head;
+	node * temp =  head;
+	//Checking empty list
+	if (NULL == head) {
+		printf("Empty List\n");
+		return;
+	}
+	//For making circular list	
+	while (NULL != temp && NULL != temp->next) {
+		temp = temp->next;
+	}
+	temp->next = head;
+
+	//checking circular list
+	while ((NULL != head) && (NULL != head->next)) {
+		printf("Head = %d\tslow = %d\n", head->value, slow->value);
+		head = head->next->next;
+		slow = slow->next;
+		if(slow != head)
+			break;
+	}
+	if (slow == head) {
+		printf("Given linked list circular\n\n");
+	} else {
+		printf("Given linked list not circular\n\n");
+	}
+	return;
+}
 	

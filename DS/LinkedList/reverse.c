@@ -59,14 +59,16 @@ int main(int argc, char*argv[])
 		return 0;	
 	}
 	int temp = atoi(argv[1]);
-	int count = atoi(argv[2]);
+//	int count = atoi(argv[2]);
 	int i;
 	for(i = 0; i < temp; i++) {
 		insert_rear(&head, i);
 	}
 	display(head);
-	nth_node_end(head, count);
+	circular(head);
+	
 /*
+	nth_node_end(head, count);
 	printf("Before delete = %d\n", list_count(head));
 	while(NULL != head) {
 		i = rand() % 100;

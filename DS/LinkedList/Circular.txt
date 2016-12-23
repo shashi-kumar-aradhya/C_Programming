@@ -1,0 +1,13 @@
+Value = 0
+Value = 1
+Value = 2
+Value = 3
+Value = 4
+Value = 5
+Value = 6
+Value = 7
+Value = 8
+Value = 9
+Head = 0	slow = 0
+Given linked list not circular
+

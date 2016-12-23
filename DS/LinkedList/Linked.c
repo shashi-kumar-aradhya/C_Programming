@@ -125,3 +125,38 @@ ret key_check(node *head, int key)
 		return FAILURE;
 	return SUCCESS;
 }
+void middle(node *head)
+{
+	node *fast = head;
+	node *slow = head;
+	if(NULL == fast) {
+		printf("Empty list\n");
+		return ;
+	}	
+	while((NULL != fast) && (NULL != fast->next)) {
+		fast = fast->next->next;
+		slow = slow->next;
+	}	
+	printf("Middle node value = %d\n",slow->value);
+	return;
+}
+
+void nth_node_end(node *head, int count)
+{
+	node *temp = head;
+	while((0 !=  count) && (NULL != head)) {
+		head = head->next;
+		count--;
+	}
+	if (count > 0) {
+		printf("Insufficient number of nodes\n");
+		return;
+	}
+	while (NULL != head) {
+		head = head->next;
+		temp = temp->next;
+	}
+	printf("n-th node : %d\n", temp->value);
+	return;
+}
+	

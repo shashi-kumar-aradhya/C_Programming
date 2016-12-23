@@ -26,4 +26,6 @@ void display(node *);
 void reverse(node **head);
 int list_count(node *head);
 ret key_check(node *, int);
+void middle(node *head);
+void nth_node_end(node *head, int count);
 #endif

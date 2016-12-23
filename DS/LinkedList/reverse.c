@@ -51,15 +51,23 @@ int insert(node **head, int value)
 	return 0;
 }
 */
-int main()
+int main(int argc, char*argv[])
 {
 	node *head = NULL;
+	if (2 > argc) {
+		printf("Usage is : %s number\n", argv[0]);
+		return 0;	
+	}
+	int temp = atoi(argv[1]);
+	int count = atoi(argv[2]);
 	int i;
-	for(i = 0; i < 100; i++) {
+	for(i = 0; i < temp; i++) {
 		insert_rear(&head, i);
 	}
-	printf("Before delete = %d\n", list_count(head));
+	display(head);
+	nth_node_end(head, count);
 /*
+	printf("Before delete = %d\n", list_count(head));
 	while(NULL != head) {
 		i = rand() % 100;
 //		printf("value = %d\n", i);
@@ -69,19 +77,20 @@ int main()
 	
 	}
 	printf("After delete = %d\n", list_count(head));
-*/
+
 	i = rand() % 100;
 	if (SUCCESS ==	key_check(head, i))
 		printf("Key is present\n");
 	i = rand() % 100;
 	if (FAILURE ==	key_check(head, i+100))
 		printf("Key is not present\n");
-/*
+
 	printf("*********Original list**********\n");
 	display(head);
 	reverse(&head);
 	printf("\n\n*********reverse list**********\n");
 	display(head);
+	middle(head);
 */
 	return 0;
 }

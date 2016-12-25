@@ -62,7 +62,7 @@ int main(int argc, char*argv[])
 //	int count = atoi(argv[2]);
 	int i;
 	for(i = 0; i < temp; i++) {
-		insert_rear(&head, i);
+		insert_rear(&head, i +1);
 	}
 	display(head);
 	circular(head);

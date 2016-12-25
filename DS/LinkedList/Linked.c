@@ -164,6 +164,7 @@ void circular(node *head)
 	
 	node * slow =  head;
 	node * temp =  head;
+	int i = 0;
 	//Checking empty list
 	if (NULL == head) {
 		printf("Empty List\n");
@@ -174,13 +175,20 @@ void circular(node *head)
 		temp = temp->next;
 	}
 	temp->next = head;
+//	if(head->next != NULL)
+//		slow = head->next;
 
 	//checking circular list
 	while ((NULL != head) && (NULL != head->next)) {
 		printf("Head = %d\tslow = %d\n", head->value, slow->value);
 		head = head->next->next;
 		slow = slow->next;
-		if(slow != head)
+		if(head->value % 5 == 0)
+		{
+			printf("i = %d\n", i);
+			i++;
+		}
+		if(slow == head)
 			break;
 	}
 	if (slow == head) {

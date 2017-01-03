@@ -198,4 +198,31 @@ void circular(node *head)
 	}
 	return;
 }
+
+node * rec_rev(node *head) {
+	node *temp;
+	if (head->next) {
+		temp = rec_rev(head->next);
+		temp->next = head;
+		head->next = NULL;
+		
+		printf("head= %d\n", head->value); 
+		printf("temp = %d\n", temp->value); 
+		return temp;
+	}
+	return head;
+/*
+	if (head && head->next ) {
+		temp = rec_rev(head->next);
+		head->next->next = head;
+		return 
+	}
 	
+	if (head && head->next) {
+	head->next= NULL;
+	temp->next = head;
+	head = temp;
+	}
+	return head;
+*/
+}

@@ -16,6 +16,12 @@ int main()
 			else case 3:
 			{
 
+				printf("GeeksforGeeks : Else");
 			}
+/*
+		case 2:
+			printf("GeeksforGeeks");
+*/
 	}
+	return 0;
 }

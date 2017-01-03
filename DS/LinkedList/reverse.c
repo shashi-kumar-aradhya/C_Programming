@@ -64,10 +64,15 @@ int main(int argc, char*argv[])
 	for(i = 0; i < temp; i++) {
 		insert_rear(&head, i +1);
 	}
+	
+	printf("*********Original list**********\n");
 	display(head);
-	circular(head);
+	head =	rec_rev(head);
+	printf("\n\n*********reverse list**********\n");
+	display(head);
 	
 /*
+	circular(head);
 	nth_node_end(head, count);
 	printf("Before delete = %d\n", list_count(head));
 	while(NULL != head) {

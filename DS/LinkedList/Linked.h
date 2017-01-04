@@ -30,4 +30,5 @@ void middle(node *head);
 void nth_node_end(node *head, int count);
 void circular(node *head);
 node * rec_rev(node *head);
+struct node* recursiveReverseLL(struct node* first);
 #endif

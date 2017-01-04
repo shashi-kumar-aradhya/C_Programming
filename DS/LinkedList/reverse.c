@@ -67,7 +67,7 @@ int main(int argc, char*argv[])
 	
 	printf("*********Original list**********\n");
 	display(head);
-	head =	rec_rev(head);
+	head = recursiveReverseLL(head);
 	printf("\n\n*********reverse list**********\n");
 	display(head);
 	

@@ -161,7 +161,7 @@ void nth_node_end(node *head, int count)
 }
 void circular(node *head)
 {
-	
+
 	node * slow =  head;
 	node * temp =  head;
 	int i = 0;
@@ -175,8 +175,8 @@ void circular(node *head)
 		temp = temp->next;
 	}
 	temp->next = head;
-//	if(head->next != NULL)
-//		slow = head->next;
+	//	if(head->next != NULL)
+	//		slow = head->next;
 
 	//checking circular list
 	while ((NULL != head) && (NULL != head->next)) {
@@ -205,24 +205,33 @@ node * rec_rev(node *head) {
 		temp = rec_rev(head->next);
 		temp->next = head;
 		head->next = NULL;
-		
+
 		printf("head= %d\n", head->value); 
 		printf("temp = %d\n", temp->value); 
 		return temp;
 	}
 	return head;
-/*
-	if (head && head->next ) {
-		temp = rec_rev(head->next);
-		head->next->next = head;
-		return 
-	}
-	
-	if (head && head->next) {
-	head->next= NULL;
-	temp->next = head;
-	head = temp;
-	}
-	return head;
-*/
+	/*
+	   if (head && head->next ) {
+	   temp = rec_rev(head->next);
+	   head->next->next = head;
+	   return 
+	   }
+
+	   if (head && head->next) {
+	   head->next= NULL;
+	   temp->next = head;
+	   head = temp;
+	   }
+	   return head;
+	 */
+}
+
+struct node* recursiveReverseLL(struct node* first){
+	if(first == NULL) return NULL; // list does not exist.
+	if(first->next == NULL) return first; // list with only one node.
+	struct node* rest = recursiveReverseLL(first->next); // recursive call on rest.
+	first->next->next = first; // make first; link to the last node in the reversed rest.
+	first->next = NULL; // since first is the new last, make its link NULL.
+	return rest; // rest now points to the head of the reversed list.
 }

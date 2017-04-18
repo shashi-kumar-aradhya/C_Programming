@@ -1,0 +1,9 @@
+Hello world is a first program in gcc envirnoment
+
+Command used to compile the program is 
+
+gcc -Wall -g helloworld.c -o helloworld
+
+where gcc is used for c complier, -Wall for all warnings, -g for gdb debugging and -o for renaming executable/outputfile.
+
+output : Hello world, welcome to programming world !!

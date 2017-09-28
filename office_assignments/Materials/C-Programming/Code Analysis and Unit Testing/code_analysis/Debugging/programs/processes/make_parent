@@ -1,0 +1,4 @@
+parent: fork_exec.c
+	gcc -o parent -g fork_exec.c
+clean:
+	rm parent

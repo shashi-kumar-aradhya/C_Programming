@@ -1,0 +1,4 @@
+debug_send: send_process.c
+	gcc -o debug_send -g send_process.c
+clean:
+	rm debug_send

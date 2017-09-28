@@ -1,0 +1,4 @@
+threads: sample_thread.c
+	gcc -o threads -g -lpthread sample_thread.c
+clean:
+	rm threads

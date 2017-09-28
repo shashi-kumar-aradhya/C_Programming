@@ -1,0 +1,2 @@
+encoder_list:encoder_list.c
+	gcc -o encoder_list `pkg-config --cflags --libs glib-2.0` -Wall -g encoder_list.c

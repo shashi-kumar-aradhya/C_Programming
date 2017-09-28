@@ -1,0 +1,4 @@
+childprogram: child.c
+	gcc -o childprogram -g child.c
+clean:
+	rm childprogram

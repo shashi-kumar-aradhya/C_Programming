@@ -1,0 +1,4 @@
+debug_recv: receive_process.c
+	gcc -o debug_recv -g receive_process.c
+clean:
+	rm debug_recv

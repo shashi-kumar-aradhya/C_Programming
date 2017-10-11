@@ -1,0 +1,7 @@
+input : oagciicgaoyjmahhamjymmwjnnjwmmvpxhpphxpvlikappakilyygvkkvgyymlpfddfplmhiodvvdoihfxpkggkpxfuevvuuvveu
+outut : Empty String
+
+input : txxmubonuhlaryeuujgftedrmmhmaadxrplneqpwhsketqicdpqlecluydmgykrubgmpwfqviabkjoiqdftbbwwgiuudmgrdbkrr
+output : tmubonuhlaryejgftedrhmdxrplneqpwhsketqicdpqlecluydmgykrubgmpwfqviabkjoiqdftgidmgrdbk
+
+

@@ -20,7 +20,7 @@ PROG = thread-pool-server.exe
 
 # top-level rule
 all: $(PROG)
-
+	rm -rf xtree.txt xtree_helgrind.txt
 $(PROG): $(PROG_OBJS)
 	$(LD) $(LDFLAGS) $(PROG_OBJS) $(LIBS) -o $(PROG)
 
@@ -32,4 +32,10 @@ $(PROG): $(PROG_OBJS)
 clean:
 	$(RM) $(PROG_OBJS) $(PROG)
 
+memcheck :
+	valgrind --leak-check=yes --show-reachable=yes --vgdb=full --xtree-memory=full --xtree-memory-file=xtree.txt --log-file=valgrind.txt ./$(PROG)
+helgrind:
+	valgrind --tool=helgrind --vgdb=full --read-var-info=yes --xtree-memory=full --xtree-memory-file=xtree_helgrind.txt --log-file=helgrind.txt ./$(PROG)
+callgrind:
+	valgrind --tool=callgrind --dump-instr=yes --collect-jumps=yes --log-file=callgrind.txt ./$(PROG)
 

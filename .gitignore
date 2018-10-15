@@ -1,6 +1,13 @@
-*.swp
+*.exe
+*.*swp
 *a.out
 *.o
 *.s
 *.i
 *.elf
+*.callgrind.out.18813
+*.callgrind.txt
+*.helgrind.txt
+*.valgrind.txt
+*.xtree.txt
+*.xtree_helgrind.txt

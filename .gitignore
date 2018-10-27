@@ -1,6 +1,6 @@
 *.exe
 *.*swp
-*a.out
+*.*a.out
 *.o
 *.s
 *.i

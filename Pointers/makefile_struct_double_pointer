@@ -1,6 +1,0 @@
-all :
-	gcc -Wall -g struct_double_pointer_1.c -o struct_double_pointer_1.exe
-	gcc -Wall -g struct_double_pointer.c -o struct_double_pointer.exe
-
-clean :
-	rm -rf *.exe

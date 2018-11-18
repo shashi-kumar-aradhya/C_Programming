@@ -11,3 +11,4 @@
 *.valgrind.txt
 *.xtree.txt
 *.xtree_helgrind.txt
+*a.out

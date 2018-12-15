@@ -1,0 +1,424 @@
+   1              		.file	"array_to_pointers_1.c"
+   2              		.text
+   3              	.Ltext0:
+   4              		.local	global_data
+   5              		.comm	global_data,16,16
+   6              		.comm	new,16,16
+   7              		.section	.rodata
+   8              	.LC0:
+   9 0000 0A496E20 		.string	"\nIn fun"
+   9      66756E00 
+  10              	.LC1:
+  11 0008 61646472 		.string	"address &new[%d][%d]= %p\n"
+  11      65737320 
+  11      266E6577 
+  11      5B25645D 
+  11      5B25645D 
+  12              	.LC2:
+  13 0022 61646472 		.string	"address new[%d][%d]= %d\n"
+  13      65737320 
+  13      6E65775B 
+  13      25645D5B 
+  13      25645D3D 
+  14              	.LC3:
+  15 003b 61667465 		.string	"after memcpy [%d][%d] = %d\n"
+  15      72206D65 
+  15      6D637079 
+  15      205B2564 
+  15      5D5B2564 
+  16              		.text
+  17              		.globl	fun
+  19              	fun:
+  20              	.LFB5:
+  21              		.file 1 "array_to_pointers_1.c"
+   1:array_to_pointers_1.c **** #include <stdio.h>
+   2:array_to_pointers_1.c **** #include <stdlib.h>
+   3:array_to_pointers_1.c **** #include <string.h>
+   4:array_to_pointers_1.c **** 
+   5:array_to_pointers_1.c **** //#define MAX 30
+   6:array_to_pointers_1.c **** #define MAX 2
+   7:array_to_pointers_1.c **** #define LOOP 2
+   8:array_to_pointers_1.c **** typedef int array[MAX];
+   9:array_to_pointers_1.c **** static  int global_data[LOOP][MAX];
+  10:array_to_pointers_1.c **** //typedef short int array[MAX];
+  11:array_to_pointers_1.c **** //static short int global_data[LOOP][MAX];
+  12:array_to_pointers_1.c **** 
+  13:array_to_pointers_1.c **** 
+  14:array_to_pointers_1.c **** array new[LOOP];
+  15:array_to_pointers_1.c **** /*
+  16:array_to_pointers_1.c ****    array * becomes (short int (*) [MAX]), when it is used as a pointer please use (*new) to access 
+  17:array_to_pointers_1.c **** 
+  18:array_to_pointers_1.c ****  */
+  19:array_to_pointers_1.c **** //void fun(array *new)
+  20:array_to_pointers_1.c **** void fun()
+  21:array_to_pointers_1.c **** {
+  22              		.loc 1 21 0
+  23              		.cfi_startproc
+  24 0000 55       		pushq	%rbp
+  25              		.cfi_def_cfa_offset 16
+  26              		.cfi_offset 6, -16
+  27 0001 4889E5   		movq	%rsp, %rbp
+  28              		.cfi_def_cfa_register 6
+  29 0004 4883EC10 		subq	$16, %rsp
+  22:array_to_pointers_1.c **** 	int i = 0;
+  30              		.loc 1 22 0
+  31 0008 C745F800 		movl	$0, -8(%rbp)
+  31      000000
+  23:array_to_pointers_1.c **** 	int j = 0;
+  32              		.loc 1 23 0
+  33 000f C745FC00 		movl	$0, -4(%rbp)
+  33      000000
+  24:array_to_pointers_1.c **** 	printf("\nIn fun\n");
+  34              		.loc 1 24 0
+  35 0016 488D3D00 		leaq	.LC0(%rip), %rdi
+  35      000000
+  36 001d E8000000 		call	puts@PLT
+  36      00
+  25:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+  37              		.loc 1 25 0
+  38 0022 C745FC00 		movl	$0, -4(%rbp)
+  38      000000
+  39 0029 E9940000 		jmp	.L2
+  39      00
+  40              	.L5:
+  26:array_to_pointers_1.c **** 	{
+  27:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+  41              		.loc 1 27 0
+  42 002e C745F800 		movl	$0, -8(%rbp)
+  42      000000
+  43 0035 EB7D     		jmp	.L3
+  44              	.L4:
+  28:array_to_pointers_1.c **** 		{
+  29:array_to_pointers_1.c **** 			printf("address &new[%d][%d]= %p\n", j, i, &new[j][i]);
+  45              		.loc 1 29 0 discriminator 3
+  46 0037 8B45F8   		movl	-8(%rbp), %eax
+  47 003a 4898     		cltq
+  48 003c 8B55FC   		movl	-4(%rbp), %edx
+  49 003f 4863D2   		movslq	%edx, %rdx
+  50 0042 4801D2   		addq	%rdx, %rdx
+  51 0045 4801D0   		addq	%rdx, %rax
+  52 0048 488D1485 		leaq	0(,%rax,4), %rdx
+  52      00000000 
+  53 0050 488D0500 		leaq	new(%rip), %rax
+  53      000000
+  54 0057 488D0C02 		leaq	(%rdx,%rax), %rcx
+  55 005b 8B55F8   		movl	-8(%rbp), %edx
+  56 005e 8B45FC   		movl	-4(%rbp), %eax
+  57 0061 89C6     		movl	%eax, %esi
+  58 0063 488D3D00 		leaq	.LC1(%rip), %rdi
+  58      000000
+  59 006a B8000000 		movl	$0, %eax
+  59      00
+  60 006f E8000000 		call	printf@PLT
+  60      00
+  30:array_to_pointers_1.c **** 			printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+  61              		.loc 1 30 0 discriminator 3
+  62 0074 8B45F8   		movl	-8(%rbp), %eax
+  63 0077 4898     		cltq
+  64 0079 8B55FC   		movl	-4(%rbp), %edx
+  65 007c 4863D2   		movslq	%edx, %rdx
+  66 007f 4801D2   		addq	%rdx, %rdx
+  67 0082 4801D0   		addq	%rdx, %rax
+  68 0085 488D1485 		leaq	0(,%rax,4), %rdx
+  68      00000000 
+  69 008d 488D0500 		leaq	new(%rip), %rax
+  69      000000
+  70 0094 8B0C02   		movl	(%rdx,%rax), %ecx
+  71 0097 8B55F8   		movl	-8(%rbp), %edx
+  72 009a 8B45FC   		movl	-4(%rbp), %eax
+  73 009d 89C6     		movl	%eax, %esi
+  74 009f 488D3D00 		leaq	.LC2(%rip), %rdi
+  74      000000
+  75 00a6 B8000000 		movl	$0, %eax
+  75      00
+  76 00ab E8000000 		call	printf@PLT
+  76      00
+  27:array_to_pointers_1.c **** 		{
+  77              		.loc 1 27 0 discriminator 3
+  78 00b0 8345F801 		addl	$1, -8(%rbp)
+  79              	.L3:
+  27:array_to_pointers_1.c **** 		{
+  80              		.loc 1 27 0 is_stmt 0 discriminator 1
+  81 00b4 837DF801 		cmpl	$1, -8(%rbp)
+  82 00b8 0F8E79FF 		jle	.L4
+  82      FFFF
+  25:array_to_pointers_1.c **** 	{
+  83              		.loc 1 25 0 is_stmt 1 discriminator 2
+  84 00be 8345FC01 		addl	$1, -4(%rbp)
+  85              	.L2:
+  25:array_to_pointers_1.c **** 	{
+  86              		.loc 1 25 0 is_stmt 0 discriminator 1
+  87 00c2 837DFC01 		cmpl	$1, -4(%rbp)
+  88 00c6 0F8E62FF 		jle	.L5
+  88      FFFF
+  31:array_to_pointers_1.c **** 			//printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+  32:array_to_pointers_1.c **** 		}
+  33:array_to_pointers_1.c **** 	}
+  34:array_to_pointers_1.c **** 	memcpy(global_data, new, sizeof(global_data));
+  89              		.loc 1 34 0 is_stmt 1
+  90 00cc 488B0500 		movq	new(%rip), %rax
+  90      000000
+  91 00d3 488B1500 		movq	8+new(%rip), %rdx
+  91      000000
+  92 00da 48890500 		movq	%rax, global_data(%rip)
+  92      000000
+  93 00e1 48891500 		movq	%rdx, 8+global_data(%rip)
+  93      000000
+  35:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+  94              		.loc 1 35 0
+  95 00e8 C745FC00 		movl	$0, -4(%rbp)
+  95      000000
+  96 00ef EB53     		jmp	.L6
+  97              	.L9:
+  36:array_to_pointers_1.c **** 	{
+  37:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+  98              		.loc 1 37 0
+  99 00f1 C745F800 		movl	$0, -8(%rbp)
+  99      000000
+ 100 00f8 EB40     		jmp	.L7
+ 101              	.L8:
+  38:array_to_pointers_1.c **** 		{
+  39:array_to_pointers_1.c **** 			printf("after memcpy [%d][%d] = %d\n", j, i, global_data[j][i]);
+ 102              		.loc 1 39 0 discriminator 3
+ 103 00fa 8B45F8   		movl	-8(%rbp), %eax
+ 104 00fd 4898     		cltq
+ 105 00ff 8B55FC   		movl	-4(%rbp), %edx
+ 106 0102 4863D2   		movslq	%edx, %rdx
+ 107 0105 4801D2   		addq	%rdx, %rdx
+ 108 0108 4801D0   		addq	%rdx, %rax
+ 109 010b 488D1485 		leaq	0(,%rax,4), %rdx
+ 109      00000000 
+ 110 0113 488D0500 		leaq	global_data(%rip), %rax
+ 110      000000
+ 111 011a 8B0C02   		movl	(%rdx,%rax), %ecx
+ 112 011d 8B55F8   		movl	-8(%rbp), %edx
+ 113 0120 8B45FC   		movl	-4(%rbp), %eax
+ 114 0123 89C6     		movl	%eax, %esi
+ 115 0125 488D3D00 		leaq	.LC3(%rip), %rdi
+ 115      000000
+ 116 012c B8000000 		movl	$0, %eax
+ 116      00
+ 117 0131 E8000000 		call	printf@PLT
+ 117      00
+  37:array_to_pointers_1.c **** 		{
+ 118              		.loc 1 37 0 discriminator 3
+ 119 0136 8345F801 		addl	$1, -8(%rbp)
+ 120              	.L7:
+  37:array_to_pointers_1.c **** 		{
+ 121              		.loc 1 37 0 is_stmt 0 discriminator 1
+ 122 013a 837DF801 		cmpl	$1, -8(%rbp)
+ 123 013e 7EBA     		jle	.L8
+  35:array_to_pointers_1.c **** 	{
+ 124              		.loc 1 35 0 is_stmt 1 discriminator 2
+ 125 0140 8345FC01 		addl	$1, -4(%rbp)
+ 126              	.L6:
+  35:array_to_pointers_1.c **** 	{
+ 127              		.loc 1 35 0 is_stmt 0 discriminator 1
+ 128 0144 837DFC01 		cmpl	$1, -4(%rbp)
+ 129 0148 7EA7     		jle	.L9
+  40:array_to_pointers_1.c **** 		}
+  41:array_to_pointers_1.c **** 	}
+  42:array_to_pointers_1.c **** 
+  43:array_to_pointers_1.c **** }
+ 130              		.loc 1 43 0 is_stmt 1
+ 131 014a 90       		nop
+ 132 014b C9       		leave
+ 133              		.cfi_def_cfa 7, 8
+ 134 014c C3       		ret
+ 135              		.cfi_endproc
+ 136              	.LFE5:
+ 138              		.section	.rodata
+ 139 0057 00       		.align 8
+ 140              	.LC4:
+ 141 0058 73697A65 		.string	"size = %ld, address = %p address_1 = %p\n"
+ 141      203D2025 
+ 141      6C642C20 
+ 141      61646472 
+ 141      65737320 
+ 142              	.LC5:
+ 143 0081 61646472 		.string	"address[%d] = %p\n"
+ 143      6573735B 
+ 143      25645D20 
+ 143      3D202570 
+ 143      0A00
+ 144 0093 00000000 		.align 8
+ 144      00
+ 145              	.LC6:
+ 146 0098 61646472 		.string	"address[%d][%d] = %p--> value = %d\n"
+ 146      6573735B 
+ 146      25645D5B 
+ 146      25645D20 
+ 146      3D202570 
+ 147              		.text
+ 148              		.globl	main
+ 150              	main:
+ 151              	.LFB6:
+  44:array_to_pointers_1.c **** int main()
+  45:array_to_pointers_1.c **** {
+ 152              		.loc 1 45 0
+ 153              		.cfi_startproc
+ 154 014d 55       		pushq	%rbp
+ 155              		.cfi_def_cfa_offset 16
+ 156              		.cfi_offset 6, -16
+ 157 014e 4889E5   		movq	%rsp, %rbp
+ 158              		.cfi_def_cfa_register 6
+ 159 0151 4883EC10 		subq	$16, %rsp
+  46:array_to_pointers_1.c **** //	array new[LOOP];
+  47:array_to_pointers_1.c **** 	int i;
+  48:array_to_pointers_1.c **** 	int j = 0;
+ 160              		.loc 1 48 0
+ 161 0155 C745FC00 		movl	$0, -4(%rbp)
+ 161      000000
+  49:array_to_pointers_1.c **** 	printf("size = %ld, address = %p address_1 = %p\n", sizeof(new)/sizeof(new[0]), new, &new);
+ 162              		.loc 1 49 0
+ 163 015c 488D0D00 		leaq	new(%rip), %rcx
+ 163      000000
+ 164 0163 488D1500 		leaq	new(%rip), %rdx
+ 164      000000
+ 165 016a BE020000 		movl	$2, %esi
+ 165      00
+ 166 016f 488D3D00 		leaq	.LC4(%rip), %rdi
+ 166      000000
+ 167 0176 B8000000 		movl	$0, %eax
+ 167      00
+ 168 017b E8000000 		call	printf@PLT
+ 168      00
+  50:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+ 169              		.loc 1 50 0
+ 170 0180 C745FC00 		movl	$0, -4(%rbp)
+ 170      000000
+ 171 0187 E9E70000 		jmp	.L11
+ 171      00
+ 172              	.L14:
+  51:array_to_pointers_1.c **** 	{
+  52:array_to_pointers_1.c **** 		printf("address[%d] = %p\n",j, &new[j]);
+ 173              		.loc 1 52 0
+ 174 018c 8B45FC   		movl	-4(%rbp), %eax
+ 175 018f 4898     		cltq
+ 176 0191 488D14C5 		leaq	0(,%rax,8), %rdx
+ 176      00000000 
+ 177 0199 488D0500 		leaq	new(%rip), %rax
+ 177      000000
+ 178 01a0 4801C2   		addq	%rax, %rdx
+ 179 01a3 8B45FC   		movl	-4(%rbp), %eax
+ 180 01a6 89C6     		movl	%eax, %esi
+ 181 01a8 488D3D00 		leaq	.LC5(%rip), %rdi
+ 181      000000
+ 182 01af B8000000 		movl	$0, %eax
+ 182      00
+ 183 01b4 E8000000 		call	printf@PLT
+ 183      00
+  53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+ 184              		.loc 1 53 0
+ 185 01b9 C745F800 		movl	$0, -8(%rbp)
+ 185      000000
+ 186 01c0 E9A00000 		jmp	.L12
+ 186      00
+ 187              	.L13:
+  54:array_to_pointers_1.c **** 		{
+  55:array_to_pointers_1.c **** 			new[j][i] =(j*10) + i + 2;
+ 188              		.loc 1 55 0 discriminator 3
+ 189 01c5 8B55FC   		movl	-4(%rbp), %edx
+ 190 01c8 89D0     		movl	%edx, %eax
+ 191 01ca C1E002   		sall	$2, %eax
+ 192 01cd 01D0     		addl	%edx, %eax
+ 193 01cf 01C0     		addl	%eax, %eax
+ 194 01d1 89C2     		movl	%eax, %edx
+ 195 01d3 8B45F8   		movl	-8(%rbp), %eax
+ 196 01d6 01D0     		addl	%edx, %eax
+ 197 01d8 8D4802   		leal	2(%rax), %ecx
+ 198 01db 8B45F8   		movl	-8(%rbp), %eax
+ 199 01de 4898     		cltq
+ 200 01e0 8B55FC   		movl	-4(%rbp), %edx
+ 201 01e3 4863D2   		movslq	%edx, %rdx
+ 202 01e6 4801D2   		addq	%rdx, %rdx
+ 203 01e9 4801D0   		addq	%rdx, %rax
+ 204 01ec 488D1485 		leaq	0(,%rax,4), %rdx
+ 204      00000000 
+ 205 01f4 488D0500 		leaq	new(%rip), %rax
+ 205      000000
+ 206 01fb 890C02   		movl	%ecx, (%rdx,%rax)
+  56:array_to_pointers_1.c **** 			printf("address[%d][%d] = %p--> value = %d\n",j, i, &new[j][i], new[j][i]);
+ 207              		.loc 1 56 0 discriminator 3
+ 208 01fe 8B45F8   		movl	-8(%rbp), %eax
+ 209 0201 4898     		cltq
+ 210 0203 8B55FC   		movl	-4(%rbp), %edx
+ 211 0206 4863D2   		movslq	%edx, %rdx
+ 212 0209 4801D2   		addq	%rdx, %rdx
+ 213 020c 4801D0   		addq	%rdx, %rax
+ 214 020f 488D1485 		leaq	0(,%rax,4), %rdx
+ 214      00000000 
+ 215 0217 488D0500 		leaq	new(%rip), %rax
+ 215      000000
+ 216 021e 8B3402   		movl	(%rdx,%rax), %esi
+ 217 0221 8B45F8   		movl	-8(%rbp), %eax
+ 218 0224 4898     		cltq
+ 219 0226 8B55FC   		movl	-4(%rbp), %edx
+ 220 0229 4863D2   		movslq	%edx, %rdx
+ 221 022c 4801D2   		addq	%rdx, %rdx
+ 222 022f 4801D0   		addq	%rdx, %rax
+ 223 0232 488D1485 		leaq	0(,%rax,4), %rdx
+ 223      00000000 
+ 224 023a 488D0500 		leaq	new(%rip), %rax
+ 224      000000
+ 225 0241 488D0C02 		leaq	(%rdx,%rax), %rcx
+ 226 0245 8B55F8   		movl	-8(%rbp), %edx
+ 227 0248 8B45FC   		movl	-4(%rbp), %eax
+ 228 024b 4189F0   		movl	%esi, %r8d
+ 229 024e 89C6     		movl	%eax, %esi
+ 230 0250 488D3D00 		leaq	.LC6(%rip), %rdi
+ 230      000000
+ 231 0257 B8000000 		movl	$0, %eax
+ 231      00
+ 232 025c E8000000 		call	printf@PLT
+ 232      00
+  53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+ 233              		.loc 1 53 0 discriminator 3
+ 234 0261 8345F801 		addl	$1, -8(%rbp)
+ 235              	.L12:
+  53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+ 236              		.loc 1 53 0 is_stmt 0 discriminator 1
+ 237 0265 837DF801 		cmpl	$1, -8(%rbp)
+ 238 0269 0F8E56FF 		jle	.L13
+ 238      FFFF
+  50:array_to_pointers_1.c **** 	{
+ 239              		.loc 1 50 0 is_stmt 1 discriminator 2
+ 240 026f 8345FC01 		addl	$1, -4(%rbp)
+ 241              	.L11:
+  50:array_to_pointers_1.c **** 	{
+ 242              		.loc 1 50 0 is_stmt 0 discriminator 1
+ 243 0273 837DFC01 		cmpl	$1, -4(%rbp)
+ 244 0277 0F8E0FFF 		jle	.L14
+ 244      FFFF
+  57:array_to_pointers_1.c **** //			printf("address[%d][%d] = %hn--> value = %d\n",j, i, &new[j][i], new[j][i]);
+  58:array_to_pointers_1.c **** 		}
+  59:array_to_pointers_1.c **** 	}
+  60:array_to_pointers_1.c **** //	fun(new);
+  61:array_to_pointers_1.c **** 	fun();
+ 245              		.loc 1 61 0 is_stmt 1
+ 246 027d B8000000 		movl	$0, %eax
+ 246      00
+ 247 0282 E8000000 		call	fun
+ 247      00
+  62:array_to_pointers_1.c **** 	/* 	
+  63:array_to_pointers_1.c **** 		fun(new);
+  64:array_to_pointers_1.c **** 		array_to_pointers.c:5:6: note: expected ‘short int (*)[30]’ but argument is of type ‘short 
+  65:array_to_pointers_1.c **** 		void fun(array *new)	
+  66:array_to_pointers_1.c **** 	 */	
+  67:array_to_pointers_1.c **** 	return 0;
+ 248              		.loc 1 67 0
+ 249 0287 B8000000 		movl	$0, %eax
+ 249      00
+  68:array_to_pointers_1.c **** }
+ 250              		.loc 1 68 0
+ 251 028c C9       		leave
+ 252              		.cfi_def_cfa 7, 8
+ 253 028d C3       		ret
+ 254              		.cfi_endproc
+ 255              	.LFE6:
+ 257              	.Letext0:
+ 258              		.file 2 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h"
+ 259              		.file 3 "/usr/include/x86_64-linux-gnu/bits/types.h"
+ 260              		.file 4 "/usr/include/x86_64-linux-gnu/bits/libio.h"
+ 261              		.file 5 "/usr/include/stdio.h"
+ 262              		.file 6 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"

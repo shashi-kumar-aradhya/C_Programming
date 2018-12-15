@@ -1,0 +1,65 @@
+\hypertarget{kernel_8c}{}\section{kernel.\+c File Reference}
+\label{kernel_8c}\index{kernel.\+c@{kernel.\+c}}
+
+
+An initial \hyperlink{kernel_8c}{kernel.\+c}.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$multiboot.\+h$>$}\newline
+{\ttfamily \#include $<$lmm.\+public.\+h$>$}\newline
+{\ttfamily \#include $<$x86/seg.\+h$>$}\newline
+{\ttfamily \#include $<$x86/pic.\+h$>$}\newline
+{\ttfamily \#include $<$x86/base\+\_\+irq.\+h$>$}\newline
+Include dependency graph for kernel.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{kernel_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\begin{DoxyCompactList}\small\item\em Kernel entrypoint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{kernel_8c_a45c86c8d46ce54e2d13c91bcc6880724}\label{kernel_8c_a45c86c8d46ce54e2d13c91bcc6880724}} 
+lmm\+\_\+t {\bfseries malloc\+\_\+lmm}
+\item 
+\mbox{\Hypertarget{kernel_8c_a76271be06cbf672af652cef947c47cd8}\label{kernel_8c_a76271be06cbf672af652cef947c47cd8}} 
+struct multiboot\+\_\+info {\bfseries boot\+\_\+info}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An initial \hyperlink{kernel_8c}{kernel.\+c}. 
+
+This file contains the kernel\textquotesingle{}s \hyperlink{kernel_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main()} function.
+
+You should add your own comments to replace this one.
+
+This is where you will eventually setup your game board and have it run.
+
+\begin{DoxyAuthor}{Author}
+Harry Q. Bovik (hqbovik) 
+
+Fred Hacker (fhacker) 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000003}{Bug}]No known bugs. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{kernel_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{kernel_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{kernel.\+c@{kernel.\+c}!main@{main}}
+\index{main@{main}!kernel.\+c@{kernel.\+c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kernel entrypoint. 
+
+This is the entrypoint for your kernel. You will use this to test and debug your drivers and it will eventually hold the code for your game. Right now, it is A tight while loop.
+
+\begin{DoxyReturn}{Returns}
+Should not return 
+\end{DoxyReturn}

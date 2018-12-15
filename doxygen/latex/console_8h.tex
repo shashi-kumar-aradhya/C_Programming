@@ -1,0 +1,267 @@
+\hypertarget{console_8h}{}\section{console.\+h File Reference}
+\label{console_8h}\index{console.\+h@{console.\+h}}
+
+
+Function prototypes for the console driver.  
+
+
+{\ttfamily \#include $<$video\+\_\+defines.\+h$>$}\newline
+Include dependency graph for console.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{console_8h_af1ad940b06a3d54539f98436b518ceb9}{putbyte} (char ch)
+\begin{DoxyCompactList}\small\item\em Prints character ch at the current location of the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_ab50dfa76fef19d93cf4f9d614353e814}{putbytes} (const char $\ast$s, int len)
+\begin{DoxyCompactList}\small\item\em Prints the string s, starting at the current location of the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_ae1ad067583402ad483584274b6c6ee3e}{set\+\_\+term\+\_\+color} (int color)
+\begin{DoxyCompactList}\small\item\em Changes the foreground and background color of future characters printed on the console. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a8786be64384ee8a582a02922c6d0bd26}{get\+\_\+term\+\_\+color} (int $\ast$color)
+\begin{DoxyCompactList}\small\item\em Writes the current foreground and background color of characters printed on the console into the argument color. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a24f2e03d3bfd641d822ac411022812a8}{set\+\_\+cursor} (int row, int col)
+\begin{DoxyCompactList}\small\item\em Sets the position of the cursor to the position (row, col). \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a394130880ff20a1f88eb92494d956ccd}{get\+\_\+cursor} (int $\ast$row, int $\ast$col)
+\begin{DoxyCompactList}\small\item\em Writes the current position of the cursor into the arguments row and col. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a42702791e6da9510e4f44f33d2dad8f1}{hide\+\_\+cursor} ()
+\begin{DoxyCompactList}\small\item\em Hides the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a1bdd62a6bef7cfd6522dc1412e162559}{show\+\_\+cursor} ()
+\begin{DoxyCompactList}\small\item\em Shows the cursor. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a3cffe15b7e5d10a108f1734a9640a2c7}{clear\+\_\+console} ()
+\begin{DoxyCompactList}\small\item\em Clears the entire console. \end{DoxyCompactList}\item 
+void \hyperlink{console_8h_a6a4b480cb4306993718003fdaf8d84d1}{draw\+\_\+char} (int row, int col, int ch, int color)
+\begin{DoxyCompactList}\small\item\em Prints character ch with the specified color at position (row, col). \end{DoxyCompactList}\item 
+char \hyperlink{console_8h_ad7ad7dd7d4b3a81fc4ec4b8a93b8de65}{get\+\_\+char} (int row, int col)
+\begin{DoxyCompactList}\small\item\em Returns the character displayed at position (row, col). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Function prototypes for the console driver. 
+
+This contains the prototypes for the console driver and eventually any macros, constants, or global variables you will need.
+
+\begin{DoxyAuthor}{Author}
+Harry Q. Bovik (hqbovik) 
+
+Fred Hacker (fhacker) 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000002}{Bug}]No known bugs. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{console_8h_a3cffe15b7e5d10a108f1734a9640a2c7}\label{console_8h_a3cffe15b7e5d10a108f1734a9640a2c7}} 
+\index{console.\+h@{console.\+h}!clear\+\_\+console@{clear\+\_\+console}}
+\index{clear\+\_\+console@{clear\+\_\+console}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{clear\+\_\+console()}{clear\_console()}}
+{\footnotesize\ttfamily void clear\+\_\+console (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the entire console. 
+
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a6a4b480cb4306993718003fdaf8d84d1}\label{console_8h_a6a4b480cb4306993718003fdaf8d84d1}} 
+\index{console.\+h@{console.\+h}!draw\+\_\+char@{draw\+\_\+char}}
+\index{draw\+\_\+char@{draw\+\_\+char}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{draw\+\_\+char()}{draw\_char()}}
+{\footnotesize\ttfamily void draw\+\_\+char (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col,  }\item[{int}]{ch,  }\item[{int}]{color }\end{DoxyParamCaption})}
+
+
+
+Prints character ch with the specified color at position (row, col). 
+
+If any argument is invalid, the function has no effect.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The row in which to display the character. \\
+\hline
+{\em col} & The column in which to display the character. \\
+\hline
+{\em ch} & The character to display. \\
+\hline
+{\em color} & The color to use to display the character. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_ad7ad7dd7d4b3a81fc4ec4b8a93b8de65}\label{console_8h_ad7ad7dd7d4b3a81fc4ec4b8a93b8de65}} 
+\index{console.\+h@{console.\+h}!get\+\_\+char@{get\+\_\+char}}
+\index{get\+\_\+char@{get\+\_\+char}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{get\+\_\+char()}{get\_char()}}
+{\footnotesize\ttfamily char get\+\_\+char (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Returns the character displayed at position (row, col). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row of the character. \\
+\hline
+{\em col} & Column of the character. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The character at (row, col). 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a394130880ff20a1f88eb92494d956ccd}\label{console_8h_a394130880ff20a1f88eb92494d956ccd}} 
+\index{console.\+h@{console.\+h}!get\+\_\+cursor@{get\+\_\+cursor}}
+\index{get\+\_\+cursor@{get\+\_\+cursor}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{get\+\_\+cursor()}{get\_cursor()}}
+{\footnotesize\ttfamily void get\+\_\+cursor (\begin{DoxyParamCaption}\item[{int $\ast$}]{row,  }\item[{int $\ast$}]{col }\end{DoxyParamCaption})}
+
+
+
+Writes the current position of the cursor into the arguments row and col. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The address to which the current cursor row will be written. \\
+\hline
+{\em col} & The address to which the current cursor column will be written. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a8786be64384ee8a582a02922c6d0bd26}\label{console_8h_a8786be64384ee8a582a02922c6d0bd26}} 
+\index{console.\+h@{console.\+h}!get\+\_\+term\+\_\+color@{get\+\_\+term\+\_\+color}}
+\index{get\+\_\+term\+\_\+color@{get\+\_\+term\+\_\+color}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{get\+\_\+term\+\_\+color()}{get\_term\_color()}}
+{\footnotesize\ttfamily void get\+\_\+term\+\_\+color (\begin{DoxyParamCaption}\item[{int $\ast$}]{color }\end{DoxyParamCaption})}
+
+
+
+Writes the current foreground and background color of characters printed on the console into the argument color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & The address to which the current color information will be written. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a42702791e6da9510e4f44f33d2dad8f1}\label{console_8h_a42702791e6da9510e4f44f33d2dad8f1}} 
+\index{console.\+h@{console.\+h}!hide\+\_\+cursor@{hide\+\_\+cursor}}
+\index{hide\+\_\+cursor@{hide\+\_\+cursor}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{hide\+\_\+cursor()}{hide\_cursor()}}
+{\footnotesize\ttfamily void hide\+\_\+cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Hides the cursor. 
+
+Subsequent calls to putbytes must not cause the cursor to show again.
+
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_af1ad940b06a3d54539f98436b518ceb9}\label{console_8h_af1ad940b06a3d54539f98436b518ceb9}} 
+\index{console.\+h@{console.\+h}!putbyte@{putbyte}}
+\index{putbyte@{putbyte}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{putbyte()}{putbyte()}}
+{\footnotesize\ttfamily int putbyte (\begin{DoxyParamCaption}\item[{char}]{ch }\end{DoxyParamCaption})}
+
+
+
+Prints character ch at the current location of the cursor. 
+
+If the character is a newline (\textquotesingle{}~\newline
+\textquotesingle{}), the cursor should be moved to the next line (scrolling if necessary). If the character is a carriage return (\textquotesingle{}\textquotesingle{}), the cursor should be immediately reset to the beginning of the current line, causing any future output to overwrite any existing output on the line. If backsapce (\textquotesingle{}{\bfseries }\textquotesingle{}) is encountered, the previous character should be erased (write a space over it and move the cursor back one column). It is up to you how you want to handle a backspace occurring at the beginning of a line.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ch} & the character to print \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input character 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_ab50dfa76fef19d93cf4f9d614353e814}\label{console_8h_ab50dfa76fef19d93cf4f9d614353e814}} 
+\index{console.\+h@{console.\+h}!putbytes@{putbytes}}
+\index{putbytes@{putbytes}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{putbytes()}{putbytes()}}
+{\footnotesize\ttfamily void putbytes (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s,  }\item[{int}]{len }\end{DoxyParamCaption})}
+
+
+
+Prints the string s, starting at the current location of the cursor. 
+
+If the string is longer than the current line, the string should fill up the current line and then continue on the next line. If the string exceeds available space on the entire console, the screen should scroll up one line, and then the string should continue on the new line. If \textquotesingle{}~\newline
+\textquotesingle{}, \textquotesingle{}\textquotesingle{}, and \textquotesingle{}{\bfseries }\textquotesingle{} are encountered within the string, they should be handled as per putbyte. If len is not a positive integer or s is null, the function has no effect.
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & The string to be printed. \\
+\hline
+{\em len} & The length of the string s. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a24f2e03d3bfd641d822ac411022812a8}\label{console_8h_a24f2e03d3bfd641d822ac411022812a8}} 
+\index{console.\+h@{console.\+h}!set\+\_\+cursor@{set\+\_\+cursor}}
+\index{set\+\_\+cursor@{set\+\_\+cursor}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{set\+\_\+cursor()}{set\_cursor()}}
+{\footnotesize\ttfamily void set\+\_\+cursor (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Sets the position of the cursor to the position (row, col). 
+
+Subsequent calls to putbytes should cause the console output to begin at the new position. If the cursor is currently hidden, a call to \hyperlink{console_8h_a24f2e03d3bfd641d822ac411022812a8}{set\+\_\+cursor()} must not show the cursor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The new row for the cursor. \\
+\hline
+{\em col} & The new column for the cursor. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_ae1ad067583402ad483584274b6c6ee3e}\label{console_8h_ae1ad067583402ad483584274b6c6ee3e}} 
+\index{console.\+h@{console.\+h}!set\+\_\+term\+\_\+color@{set\+\_\+term\+\_\+color}}
+\index{set\+\_\+term\+\_\+color@{set\+\_\+term\+\_\+color}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{set\+\_\+term\+\_\+color()}{set\_term\_color()}}
+{\footnotesize\ttfamily void set\+\_\+term\+\_\+color (\begin{DoxyParamCaption}\item[{int}]{color }\end{DoxyParamCaption})}
+
+
+
+Changes the foreground and background color of future characters printed on the console. 
+
+If the color code is invalid, the function has no effect.
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & The new color code. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{console_8h_a1bdd62a6bef7cfd6522dc1412e162559}\label{console_8h_a1bdd62a6bef7cfd6522dc1412e162559}} 
+\index{console.\+h@{console.\+h}!show\+\_\+cursor@{show\+\_\+cursor}}
+\index{show\+\_\+cursor@{show\+\_\+cursor}!console.\+h@{console.\+h}}
+\subsubsection{\texorpdfstring{show\+\_\+cursor()}{show\_cursor()}}
+{\footnotesize\ttfamily void show\+\_\+cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Shows the cursor. 
+
+If the cursor is already shown, the function has no effect.
+
+\begin{DoxyReturn}{Returns}
+Void. 
+\end{DoxyReturn}

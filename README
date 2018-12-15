@@ -1,0 +1,9 @@
+C coding guidelines :
+./Documentation/process/coding-style.rst
+(From linux kernel)
+
+
+gitk ./boards/arm/stm32_min_dev/
+https://tia.mat.br/posts/2018/02/01/more_on_string_switch_in_c.html
+https://graphics.stanford.edu/~seander/bithacks.html#ZeroInWord
+https://tia.mat.br/posts/2015/05/01/initializing_a_heap_allocated_structure_in_c.html

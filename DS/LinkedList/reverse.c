@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "Linked.h"
-/*#include <stdlib.h>
+
+#if 0
+#include <stdlib.h>
 typedef struct node {
 	int value;
 	struct node * next;
@@ -50,7 +52,7 @@ int insert(node **head, int value)
 	*head = temp;
 	return 0;
 }
-*/
+#endif
 int main(int argc, char*argv[])
 {
 	node *head = NULL;
@@ -71,7 +73,7 @@ int main(int argc, char*argv[])
 	printf("\n\n*********reverse list**********\n");
 	display(head);
 	
-/*
+#if 0
 	circular(head);
 	nth_node_end(head, count);
 	printf("Before delete = %d\n", list_count(head));
@@ -98,6 +100,6 @@ int main(int argc, char*argv[])
 	printf("\n\n*********reverse list**********\n");
 	display(head);
 	middle(head);
-*/
+#endif
 	return 0;
 }

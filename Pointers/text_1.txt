@@ -1,0 +1,153 @@
+size = 30, address = 0x7ffe455167d0 address_1 = 0x7ffe455167d0
+address 0 = 1162962896
+address 1 = 1162962898
+address 2 = 1162962900
+address 3 = 1162962902
+address 4 = 1162962904
+address 5 = 1162962906
+address 6 = 1162962908
+address 7 = 1162962910
+address 8 = 1162962912
+address 9 = 1162962914
+address 10 = 1162962916
+address 11 = 1162962918
+address 12 = 1162962920
+address 13 = 1162962922
+address 14 = 1162962924
+address 15 = 1162962926
+address 16 = 1162962928
+address 17 = 1162962930
+address 18 = 1162962932
+address 19 = 1162962934
+address 20 = 1162962936
+address 21 = 1162962938
+address 22 = 1162962940
+address 23 = 1162962942
+address 24 = 1162962944
+address 25 = 1162962946
+address 26 = 1162962948
+address 27 = 1162962950
+address 28 = 1162962952
+address 29 = 1162962954
+
+In fun
+i = 0, value = 1,  value_1 = 1 value_2 = 1
+address &new[0]= 1162962896
+address &new[0][0]= 1162962896
+address (*new)[0]= 1162962896
+i = 1, value = 2,  value_1 = 2 value_2 = 21852
+address &new[1]= 1162962956
+address &new[0][1]= 1162962898
+address (*new)[1]= 1162962898
+i = 2, value = 3,  value_1 = 3 value_2 = 14365
+address &new[2]= 1162963016
+address &new[0][2]= 1162962900
+address (*new)[2]= 1162962900
+i = 3, value = 0,  value_1 = 0 value_2 = 3974
+address &new[3]= 1162963076
+address &new[0][3]= 1162962902
+address (*new)[3]= 1162962902
+i = 4, value = 0,  value_1 = 0 value_2 = 0
+address &new[4]= 1162963136
+address &new[0][4]= 1162962904
+address (*new)[4]= 1162962904
+i = 5, value = 0,  value_1 = 0 value_2 = 0
+address &new[5]= 1162963196
+address &new[0][5]= 1162962906
+address (*new)[5]= 1162962906
+i = 6, value = 0,  value_1 = 0 value_2 = 30902
+address &new[6]= 1162963256
+address &new[0][6]= 1162962908
+address (*new)[6]= 1162962908
+i = 7, value = 0,  value_1 = 0 value_2 = 32766
+address &new[7]= 1162963316
+address &new[0][7]= 1162962910
+address (*new)[7]= 1162962910
+i = 8, value = 0,  value_1 = 0 value_2 = 31313
+address &new[8]= 1162963376
+address &new[0][8]= 1162962912
+address (*new)[8]= 1162962912
+i = 9, value = 0,  value_1 = 0 value_2 = 32766
+address &new[9]= 1162963436
+address &new[0][9]= 1162962914
+address (*new)[9]= 1162962914
+i = 10, value = 0,  value_1 = 0 value_2 = 31867
+address &new[10]= 1162963496
+address &new[0][10]= 1162962916
+address (*new)[10]= 1162962916
+i = 11, value = 0,  value_1 = 0 value_2 = 32766
+address &new[11]= 1162963556
+address &new[0][11]= 1162962918
+address (*new)[11]= 1162962918
+i = 12, value = 0,  value_1 = 0 value_2 = 32206
+address &new[12]= 1162963616
+address &new[0][12]= 1162962920
+address (*new)[12]= 1162962920
+i = 13, value = 0,  value_1 = 0 value_2 = 32766
+address &new[13]= 1162963676
+address &new[0][13]= 1162962922
+address (*new)[13]= 1162962922
+i = 14, value = 0,  value_1 = 0 value_2 = 16
+address &new[14]= 1162963736
+address &new[0][14]= 1162962924
+address (*new)[14]= 1162962924
+i = 15, value = 0,  value_1 = 0 value_2 = 21852
+address &new[15]= 1162963796
+address &new[0][15]= 1162962926
+address (*new)[15]= 1162962926
+i = 16, value = 0,  value_1 = 0 value_2 = 0
+address &new[16]= 1162963856
+address &new[0][16]= 1162962928
+address (*new)[16]= 1162962928
+i = 17, value = 0,  value_1 = 0 value_2 = 0
+address &new[17]= 1162963916
+address &new[0][17]= 1162962930
+address (*new)[17]= 1162962930
+i = 18, value = 0,  value_1 = 0 value_2 = 26
+address &new[18]= 1162963976
+address &new[0][18]= 1162962932
+address (*new)[18]= 1162962932
+i = 19, value = 0,  value_1 = 0 value_2 = 0
+address &new[19]= 1162964036
+address &new[0][19]= 1162962934
+address (*new)[19]= 1162962934
+i = 20, value = 0,  value_1 = 0 value_2 = 0
+address &new[20]= 1162964096
+address &new[0][20]= 1162962936
+address (*new)[20]= 1162962936
+i = 21, value = 0,  value_1 = 0 value_2 = 0
+address &new[21]= 1162964156
+address &new[0][21]= 1162962938
+address (*new)[21]= 1162962938
+i = 22, value = 0,  value_1 = 0 value_2 = 0
+address &new[22]= 1162964216
+address &new[0][22]= 1162962940
+address (*new)[22]= 1162962940
+i = 23, value = 0,  value_1 = 0 value_2 = 0
+address &new[23]= 1162964276
+address &new[0][23]= 1162962942
+address (*new)[23]= 1162962942
+i = 24, value = 0,  value_1 = 0 value_2 = 0
+address &new[24]= 1162964336
+address &new[0][24]= 1162962944
+address (*new)[24]= 1162962944
+i = 25, value = 0,  value_1 = 0 value_2 = 0
+address &new[25]= 1162964396
+address &new[0][25]= 1162962946
+address (*new)[25]= 1162962946
+i = 26, value = 0,  value_1 = 0 value_2 = 0
+address &new[26]= 1162964456
+address &new[0][26]= 1162962948
+address (*new)[26]= 1162962948
+i = 27, value = 0,  value_1 = 0 value_2 = 0
+address &new[27]= 1162964516
+address &new[0][27]= 1162962950
+address (*new)[27]= 1162962950
+i = 28, value = 0,  value_1 = 0 value_2 = 0
+address &new[28]= 1162964576
+address &new[0][28]= 1162962952
+address (*new)[28]= 1162962952
+i = 29, value = 0,  value_1 = 0 value_2 = 0
+address &new[29]= 1162964636
+address &new[0][29]= 1162962954
+address (*new)[29]= 1162962954

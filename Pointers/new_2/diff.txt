@@ -1,0 +1,248 @@
+1c1
+<    1              		.file	"array_to_pointers_1.c"
+---
+>    1              		.file	"array_to_pointers_2.c"
+33,54c33,54
+<   21              		.file 1 "array_to_pointers_1.c"
+<    1:array_to_pointers_1.c **** #include <stdio.h>
+<    2:array_to_pointers_1.c **** #include <stdlib.h>
+<    3:array_to_pointers_1.c **** #include <string.h>
+<    4:array_to_pointers_1.c **** 
+<    5:array_to_pointers_1.c **** //#define MAX 30
+<    6:array_to_pointers_1.c **** #define MAX 2
+<    7:array_to_pointers_1.c **** #define LOOP 2
+<    8:array_to_pointers_1.c **** typedef int array[MAX];
+<    9:array_to_pointers_1.c **** static  int global_data[LOOP][MAX];
+<   10:array_to_pointers_1.c **** //typedef short int array[MAX];
+<   11:array_to_pointers_1.c **** //static short int global_data[LOOP][MAX];
+<   12:array_to_pointers_1.c **** 
+<   13:array_to_pointers_1.c **** 
+<   14:array_to_pointers_1.c **** array new[LOOP];
+<   15:array_to_pointers_1.c **** /*
+<   16:array_to_pointers_1.c ****    array * becomes (short int (*) [MAX]), when it is used as a pointer please use (*new) to access 
+<   17:array_to_pointers_1.c **** 
+<   18:array_to_pointers_1.c ****  */
+<   19:array_to_pointers_1.c **** //void fun(array *new)
+<   20:array_to_pointers_1.c **** void fun()
+<   21:array_to_pointers_1.c **** {
+---
+>   21              		.file 1 "array_to_pointers_2.c"
+>    1:array_to_pointers_2.c **** #include <stdio.h>
+>    2:array_to_pointers_2.c **** #include <stdlib.h>
+>    3:array_to_pointers_2.c **** #include <string.h>
+>    4:array_to_pointers_2.c **** 
+>    5:array_to_pointers_2.c **** //#define MAX 30
+>    6:array_to_pointers_2.c **** #define MAX 2
+>    7:array_to_pointers_2.c **** #define LOOP 2
+>    8:array_to_pointers_2.c **** typedef int array[MAX];
+>    9:array_to_pointers_2.c **** static  int global_data[LOOP][MAX];
+>   10:array_to_pointers_2.c **** //typedef short int array[MAX];
+>   11:array_to_pointers_2.c **** //static short int global_data[LOOP][MAX];
+>   12:array_to_pointers_2.c **** 
+>   13:array_to_pointers_2.c **** 
+>   14:array_to_pointers_2.c **** array new[LOOP];
+>   15:array_to_pointers_2.c **** /*
+>   16:array_to_pointers_2.c ****    array * becomes (short int (*) [MAX]), when it is used as a pointer please use (*new) to access 
+>   17:array_to_pointers_2.c **** 
+>   18:array_to_pointers_2.c ****  */
+>   19:array_to_pointers_2.c **** //void fun(array *new)
+>   20:array_to_pointers_2.c **** void fun()
+>   21:array_to_pointers_2.c **** {
+63c63
+<   22:array_to_pointers_1.c **** 	int i = 0;
+---
+>   22:array_to_pointers_2.c **** 	int i = 0;
+67c67
+<   23:array_to_pointers_1.c **** 	int j = 0;
+---
+>   23:array_to_pointers_2.c **** 	int j = 0;
+71c71
+<   24:array_to_pointers_1.c **** 	printf("\nIn fun\n");
+---
+>   24:array_to_pointers_2.c **** 	printf("\nIn fun\n");
+77c77
+<   25:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+---
+>   25:array_to_pointers_2.c **** 	for (j = 0; j < LOOP; j++)
+84,85c84,85
+<   26:array_to_pointers_1.c **** 	{
+<   27:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+---
+>   26:array_to_pointers_2.c **** 	{
+>   27:array_to_pointers_2.c **** 		for(i = 0; i < MAX; i++)
+91,92c91,92
+<   28:array_to_pointers_1.c **** 		{
+<   29:array_to_pointers_1.c **** 			printf("address &new[%d][%d]= %p\n", j, i, &new[j][i]);
+---
+>   28:array_to_pointers_2.c **** 		{
+>   29:array_to_pointers_2.c **** 			printf("address &new[%d][%d]= %p\n", j, i, &new[j][i]);
+114c114
+<   30:array_to_pointers_1.c **** 			printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+---
+>   30:array_to_pointers_2.c **** 			printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+136c136
+<   27:array_to_pointers_1.c **** 		{
+---
+>   27:array_to_pointers_2.c **** 		{
+140c140
+<   27:array_to_pointers_1.c **** 		{
+---
+>   27:array_to_pointers_2.c **** 		{
+145c145
+<   25:array_to_pointers_1.c **** 	{
+---
+>   25:array_to_pointers_2.c **** 	{
+149c149
+<   25:array_to_pointers_1.c **** 	{
+---
+>   25:array_to_pointers_2.c **** 	{
+154,157c154,157
+<   31:array_to_pointers_1.c **** 			//printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+<   32:array_to_pointers_1.c **** 		}
+<   33:array_to_pointers_1.c **** 	}
+<   34:array_to_pointers_1.c **** 	memcpy(global_data, new, sizeof(global_data));
+---
+>   31:array_to_pointers_2.c **** 			//printf("address new[%d][%d]= %d\n", j, i, new[j][i]);
+>   32:array_to_pointers_2.c **** 		}
+>   33:array_to_pointers_2.c **** 	}
+>   34:array_to_pointers_2.c **** 	memcpy(global_data, new, sizeof(global_data));
+167c167
+<   35:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+---
+>   35:array_to_pointers_2.c **** 	for (j = 0; j < LOOP; j++)
+173,174c173,174
+<   36:array_to_pointers_1.c **** 	{
+<   37:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+---
+>   36:array_to_pointers_2.c **** 	{
+>   37:array_to_pointers_2.c **** 		for(i = 0; i < MAX; i++)
+180,181c180,181
+<   38:array_to_pointers_1.c **** 		{
+<   39:array_to_pointers_1.c **** 			printf("after memcpy [%d][%d] = %d\n", j, i, global_data[j][i]);
+---
+>   38:array_to_pointers_2.c **** 		{
+>   39:array_to_pointers_2.c **** 			printf("after memcpy [%d][%d] = %d\n", j, i, global_data[j][i]);
+203c203
+<   37:array_to_pointers_1.c **** 		{
+---
+>   37:array_to_pointers_2.c **** 		{
+207c207
+<   37:array_to_pointers_1.c **** 		{
+---
+>   37:array_to_pointers_2.c **** 		{
+211c211
+<   35:array_to_pointers_1.c **** 	{
+---
+>   35:array_to_pointers_2.c **** 	{
+215c215
+<   35:array_to_pointers_1.c **** 	{
+---
+>   35:array_to_pointers_2.c **** 	{
+219,222c219,222
+<   40:array_to_pointers_1.c **** 		}
+<   41:array_to_pointers_1.c **** 	}
+<   42:array_to_pointers_1.c **** 
+<   43:array_to_pointers_1.c **** }
+---
+>   40:array_to_pointers_2.c **** 		}
+>   41:array_to_pointers_2.c **** 	}
+>   42:array_to_pointers_2.c **** 
+>   43:array_to_pointers_2.c **** }
+247c247
+<  146 0098 61646472 		.string	"address[%d][%d] = %p--> value = %d\n"
+---
+>  146 0098 61646472 		.string	"address[%d][%d] = %hn--> value = %d\n"
+251c251
+<  146      3D202570 
+---
+>  146      3D202568 
+256,257c256,257
+<   44:array_to_pointers_1.c **** int main()
+<   45:array_to_pointers_1.c **** {
+---
+>   44:array_to_pointers_2.c **** int main()
+>   45:array_to_pointers_2.c **** {
+266,268c266,268
+<   46:array_to_pointers_1.c **** //	array new[LOOP];
+<   47:array_to_pointers_1.c **** 	int i;
+<   48:array_to_pointers_1.c **** 	int j = 0;
+---
+>   46:array_to_pointers_2.c **** //	array new[LOOP];
+>   47:array_to_pointers_2.c **** 	int i;
+>   48:array_to_pointers_2.c **** 	int j = 0;
+272c272
+<   49:array_to_pointers_1.c **** 	printf("size = %ld, address = %p address_1 = %p\n", sizeof(new)/sizeof(new[0]), new, &new);
+---
+>   49:array_to_pointers_2.c **** 	printf("size = %ld, address = %p address_1 = %p\n", sizeof(new)/sizeof(new[0]), new, &new);
+286c286
+<   50:array_to_pointers_1.c **** 	for (j = 0; j < LOOP; j++)
+---
+>   50:array_to_pointers_2.c **** 	for (j = 0; j < LOOP; j++)
+293,294c293,294
+<   51:array_to_pointers_1.c **** 	{
+<   52:array_to_pointers_1.c **** 		printf("address[%d] = %p\n",j, &new[j]);
+---
+>   51:array_to_pointers_2.c **** 	{
+>   52:array_to_pointers_2.c **** 		printf("address[%d] = %p\n",j, &new[j]);
+311c311
+<   53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+---
+>   53:array_to_pointers_2.c **** 		for(i = 0; i < MAX; i++)
+318,319c318,319
+<   54:array_to_pointers_1.c **** 		{
+<   55:array_to_pointers_1.c **** 			new[j][i] =(j*10) + i + 2;
+---
+>   54:array_to_pointers_2.c **** 		{
+>   55:array_to_pointers_2.c **** 			new[j][i] =(j*10) + i + 2;
+341,342c341,343
+<   56:array_to_pointers_1.c **** 			printf("address[%d][%d] = %p--> value = %d\n",j, i, &new[j][i], new[j][i]);
+<  207              		.loc 1 56 0 discriminator 3
+---
+>   56:array_to_pointers_2.c **** //			printf("address[%d][%d] = %p--> value = %d\n",j, i, &new[j][i], new[j][i]);
+>   57:array_to_pointers_2.c **** 			printf("address[%d][%d] = %hn--> value = %d\n",j, i, &new[j][i], new[j][i]);
+>  207              		.loc 1 57 0 discriminator 3
+375c376
+<   53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+---
+>   53:array_to_pointers_2.c **** 		{
+379c380
+<   53:array_to_pointers_1.c **** 		for(i = 0; i < MAX; i++)
+---
+>   53:array_to_pointers_2.c **** 		{
+384c385
+<   50:array_to_pointers_1.c **** 	{
+---
+>   50:array_to_pointers_2.c **** 	{
+388c389
+<   50:array_to_pointers_1.c **** 	{
+---
+>   50:array_to_pointers_2.c **** 	{
+393,397c394,397
+<   57:array_to_pointers_1.c **** //			printf("address[%d][%d] = %hn--> value = %d\n",j, i, &new[j][i], new[j][i]);
+<   58:array_to_pointers_1.c **** 		}
+<   59:array_to_pointers_1.c **** 	}
+<   60:array_to_pointers_1.c **** //	fun(new);
+<   61:array_to_pointers_1.c **** 	fun();
+---
+>   58:array_to_pointers_2.c **** 		}
+>   59:array_to_pointers_2.c **** 	}
+>   60:array_to_pointers_2.c **** //	fun(new);
+>   61:array_to_pointers_2.c **** 	fun();
+403,408c403,408
+<   62:array_to_pointers_1.c **** 	/* 	
+<   63:array_to_pointers_1.c **** 		fun(new);
+<   64:array_to_pointers_1.c **** 		array_to_pointers.c:5:6: note: expected ‘short int (*)[30]’ but argument is of type ‘short 
+<   65:array_to_pointers_1.c **** 		void fun(array *new)	
+<   66:array_to_pointers_1.c **** 	 */	
+<   67:array_to_pointers_1.c **** 	return 0;
+---
+>   62:array_to_pointers_2.c **** 	/* 	
+>   63:array_to_pointers_2.c **** 		fun(new);
+>   64:array_to_pointers_2.c **** 		array_to_pointers.c:5:6: note: expected ‘short int (*)[30]’ but argument is of type ‘short 
+>   65:array_to_pointers_2.c **** 		void fun(array *new)	
+>   66:array_to_pointers_2.c **** 	 */	
+>   67:array_to_pointers_2.c **** 	return 0;
+412c412
+<   68:array_to_pointers_1.c **** }
+---
+>   68:array_to_pointers_2.c **** }

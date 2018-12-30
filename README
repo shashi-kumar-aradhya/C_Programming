@@ -7,3 +7,13 @@ gitk ./boards/arm/stm32_min_dev/
 https://tia.mat.br/posts/2018/02/01/more_on_string_switch_in_c.html
 https://graphics.stanford.edu/~seander/bithacks.html#ZeroInWord
 https://tia.mat.br/posts/2015/05/01/initializing_a_heap_allocated_structure_in_c.html
+
+
+Linux device driver :
+ADXL345 : 
+1. https://wiki.analog.com/resources/tools-software/linux-drivers/input-misc/adxl345
+2. https://eraretuya.github.io/2016/12/29/writing-a-driver-for-adxl345/
+3. https://eraretuya.github.io/2017/01/06/preliminary-code/
+4. https://www.ctrlinux.com/blog/?p=12 
+5. https://www.ctrlinux.com/blog/?p=38
+

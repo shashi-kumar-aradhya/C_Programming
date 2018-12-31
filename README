@@ -17,3 +17,9 @@ ADXL345 :
 4. https://www.ctrlinux.com/blog/?p=12 
 5. https://www.ctrlinux.com/blog/?p=38
 
+
+Zephyr :Materials
+1. https://www.gomcu.com/tag/tutorial/
+
+For compiling:
+cmake -DBOARD=stm32_min_dev -Bbuild -H.

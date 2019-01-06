@@ -20,6 +20,15 @@ ADXL345 :
 
 Zephyr :Materials
 1. https://www.gomcu.com/tag/tutorial/
+pip3 install --user -r zephyr/scripts/requirements.txt
+
 
 For compiling:
+1.  cp -r $ZEPHYR_BASE/samples/basic/blinky ~/workspace/stm32/
+    cd ~/workspace/stm32/blinky
+    make BOARD=stm32_min_dev
+
 cmake -DBOARD=stm32_min_dev -Bbuild -H.
+cd build
+make BOARD=stm32_min_dev
+sudo make BOARD=stm32_min_dev flash

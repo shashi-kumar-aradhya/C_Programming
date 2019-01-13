@@ -24,6 +24,9 @@ pip3 install --user -r zephyr/scripts/requirements.txt
 
 git clone https://github.com/zephyrproject-rtos/zephyr.git 
 
+https://www.youtube.com/watch?v=K-jYSysmw9w
+https://circuitdigest.com/microcontroller-projects/getting-started-with-stm32-development-board-stm32f103c8-using-arduino-ide
+
 For compiling:
 1.  cp -r $ZEPHYR_BASE/samples/basic/blinky ~/workspace/stm32/
     cd ~/workspace/stm32/blinky

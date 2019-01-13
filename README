@@ -22,6 +22,7 @@ Zephyr :Materials
 1. https://www.gomcu.com/tag/tutorial/
 pip3 install --user -r zephyr/scripts/requirements.txt
 
+git clone https://github.com/zephyrproject-rtos/zephyr.git 
 
 For compiling:
 1.  cp -r $ZEPHYR_BASE/samples/basic/blinky ~/workspace/stm32/
@@ -30,5 +31,12 @@ For compiling:
 
 cmake -DBOARD=stm32_min_dev -Bbuild -H.
 cd build
-make BOARD=stm32_min_dev
+cd build && make BOARD=stm32_min_dev
 sudo make BOARD=stm32_min_dev flash
+
+Demo List : https://docs.zephyrproject.org/latest/samples/samples.html#samples-and-demos
+GDB : https://docs.zephyrproject.org/latest/application/application.html#running-on-a-board
+
+
+Installing Ninja:
+https://www.claudiokuenzler.com/blog/756/install-newer-ninja-build-tools-ubuntu-14.04-trusty#.XDrSL8bhVuQ

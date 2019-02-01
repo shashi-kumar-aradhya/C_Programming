@@ -53,6 +53,20 @@ int insert(node **head, int value)
 	return 0;
 }
 #endif
+node *s_reverse(node *head)
+{
+	node *temp = NULL;
+	node *prev = NULL;
+	while(head)
+	{
+		prev = head;
+		head = head->next;
+		prev->next = temp;
+		temp = prev;
+	}
+	return prev;
+}
+
 int main(int argc, char*argv[])
 {
 	node *head = NULL;
@@ -69,7 +83,8 @@ int main(int argc, char*argv[])
 	
 	printf("*********Original list**********\n");
 	display(head);
-	head = recursiveReverseLL(head);
+//	head = recursiveReverseLL(head);
+	head = s_reverse(head);
 	printf("\n\n*********reverse list**********\n");
 	display(head);
 	

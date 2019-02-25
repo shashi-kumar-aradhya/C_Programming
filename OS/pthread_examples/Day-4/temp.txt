@@ -1,0 +1,451 @@
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760279336704
+Released lock() : 139760279336704
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Waiting for lock() : 139760262551296
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760173573888
+Released lock() : 139760173573888
+Current local time and date: Mon Feb 25 23:04:32 2019
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760181966592
+Released lock() : 139760181966592
+Current local time and date: Mon Feb 25 23:04:32 2019
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760270944000
+Released lock() : 139760270944000
+Current local time and date: Mon Feb 25 23:04:32 2019
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760165181184
+Released lock() : 139760165181184
+Current local time and date: Mon Feb 25 23:04:32 2019
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760262551296
+Released lock() : 139760262551296
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760156788480
+Released lock() : 139760156788480
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760140003072
+Released lock() : 139760140003072
+Current local time and date: Mon Feb 25 23:04:32 2019
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Waiting for lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+Acquired lock() : 139760148395776
+Released lock() : 139760148395776
+Current local time and date: Mon Feb 25 23:04:32 2019
+glob = 90

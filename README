@@ -24,6 +24,8 @@ pip3 install --user -r zephyr/scripts/requirements.txt
 
 git clone https://github.com/zephyrproject-rtos/zephyr.git 
 
+https://docs.zephyrproject.org/latest/security/sensor-threat.html
+https://docs.zephyrproject.org/latest/reference/kernel/synchronization/mutexes.html#concepts
 https://www.youtube.com/watch?v=K-jYSysmw9w
 https://circuitdigest.com/microcontroller-projects/getting-started-with-stm32-development-board-stm32f103c8-using-arduino-ide
 

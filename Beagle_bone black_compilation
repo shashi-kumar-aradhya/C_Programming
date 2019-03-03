@@ -1,0 +1,29 @@
+.config' -> '/home/shashi/dabba/workspace/beagle_bone_black/ti-linux-rt-4.14.y/ti-linux-kernel-dev/patches/ref_omap2plus_defconfig'
+'/home/shashi/dabba/workspace/beagle_bone_black/ti-linux-rt-4.14.y/ti-linux-kernel-dev/patches/defconfig' -> '.config'
+
+
+'.config' -> '/home/shashi/dabba/workspace/beagle_bone_black/ti-linux-rt-4.14.y/ti-linux-kernel-dev/patches/defconfig'
+
+
+
+
+'.config' -> '/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/patches/ref_omap2plus_defconfig'
+'/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/patches/defconfig' -> '.config'
+
+
+'.config' -> '/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/patches/defconfig'
+
+
+
+make -j4 ARCH=arm LOCALVERSION=-bone17.1 CROSS_COMPILE="/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/dl/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-"  zImage modules
+
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- bb.org_defconfig
+
+make -j4 ARCH=arm CROSS_COMPILE=${CC} LOADADDR=0x80008000 uImage dtbs modules
+Maainline Linux :
+make -j4 ARCH=arm LOCALVERSION=-v4.20.13 CROSS_COMPILE="/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/dl/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-"  omap2plus_defconfig
+
+Beaglebone Black Linux(embed journal linux) :
+make -j4 ARCH=arm CROSS_COMPILE="/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/dl/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-"  bb.org_defconfig
+
+make -j4 ARCH=arm CROSS_COMPILE="/home/shashi/dabba/workspace/beagle_bone_black/am33x-v4.14/bb-kernel/dl/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-" LOADADDR=0x80008000 uImage dtbs modules

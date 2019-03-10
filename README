@@ -48,3 +48,7 @@ GDB : https://docs.zephyrproject.org/latest/application/application.html#running
 
 Installing Ninja:
 https://www.claudiokuenzler.com/blog/756/install-newer-ninja-build-tools-ubuntu-14.04-trusty#.XDrSL8bhVuQ
+
+
+GCC compilations :
+https://gcc.gnu.org/onlinedocs/gcc-4.8.0/gcc/Option-Index.html

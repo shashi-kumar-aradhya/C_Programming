@@ -1,5 +1,7 @@
 *.exe
 *.*swp
+*.*swn
+*.*swo
 *.*a.out
 *.o
 *.s

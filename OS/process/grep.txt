@@ -1,0 +1,201 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 20:10 ?        00:00:01 /sbin/init splash
+root         2     0  0 20:10 ?        00:00:00 [kthreadd]
+root         3     2  0 20:10 ?        00:00:00 [kworker/0:0]
+root         4     2  0 20:10 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 20:10 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 20:10 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 20:10 ?        00:00:03 [rcu_sched]
+root         9     2  0 20:10 ?        00:00:00 [rcu_bh]
+root        10     2  0 20:10 ?        00:00:00 [migration/0]
+root        11     2  0 20:10 ?        00:00:00 [watchdog/0]
+root        12     2  0 20:10 ?        00:00:00 [cpuhp/0]
+root        13     2  0 20:10 ?        00:00:00 [cpuhp/1]
+root        14     2  0 20:10 ?        00:00:00 [watchdog/1]
+root        15     2  0 20:10 ?        00:00:00 [migration/1]
+root        16     2  0 20:10 ?        00:00:00 [ksoftirqd/1]
+root        18     2  0 20:10 ?        00:00:00 [kworker/1:0H]
+root        19     2  0 20:10 ?        00:00:00 [cpuhp/2]
+root        20     2  0 20:10 ?        00:00:00 [watchdog/2]
+root        21     2  0 20:10 ?        00:00:00 [migration/2]
+root        22     2  0 20:10 ?        00:00:00 [ksoftirqd/2]
+root        24     2  0 20:10 ?        00:00:00 [kworker/2:0H]
+root        25     2  0 20:10 ?        00:00:00 [cpuhp/3]
+root        26     2  0 20:10 ?        00:00:00 [watchdog/3]
+root        27     2  0 20:10 ?        00:00:00 [migration/3]
+root        28     2  0 20:10 ?        00:00:00 [ksoftirqd/3]
+root        30     2  0 20:10 ?        00:00:00 [kworker/3:0H]
+root        31     2  0 20:10 ?        00:00:00 [kdevtmpfs]
+root        32     2  0 20:10 ?        00:00:00 [netns]
+root        33     2  0 20:10 ?        00:00:00 [rcu_tasks_kthre]
+root        34     2  0 20:10 ?        00:00:00 [kauditd]
+root        36     2  0 20:10 ?        00:00:02 [kworker/2:1]
+root        37     2  0 20:10 ?        00:00:00 [khungtaskd]
+root        38     2  0 20:10 ?        00:00:00 [oom_reaper]
+root        39     2  0 20:10 ?        00:00:00 [writeback]
+root        40     2  0 20:10 ?        00:00:00 [kcompactd0]
+root        41     2  0 20:10 ?        00:00:00 [ksmd]
+root        42     2  0 20:10 ?        00:00:00 [khugepaged]
+root        43     2  0 20:10 ?        00:00:00 [crypto]
+root        44     2  0 20:10 ?        00:00:00 [kintegrityd]
+root        45     2  0 20:10 ?        00:00:00 [kblockd]
+root        46     2  0 20:10 ?        00:00:00 [ata_sff]
+root        47     2  0 20:10 ?        00:00:00 [md]
+root        48     2  0 20:10 ?        00:00:00 [edac-poller]
+root        49     2  0 20:10 ?        00:00:00 [devfreq_wq]
+root        50     2  0 20:10 ?        00:00:00 [watchdogd]
+root        52     2  0 20:10 ?        00:00:00 [kworker/1:1]
+root        55     2  0 20:10 ?        00:00:00 [kswapd0]
+root        56     2  0 20:10 ?        00:00:00 [kworker/u17:0]
+root        57     2  0 20:10 ?        00:00:00 [ecryptfs-kthrea]
+root        99     2  0 20:10 ?        00:00:00 [kthrotld]
+root       100     2  0 20:10 ?        00:00:00 [acpi_thermal_pm]
+root       101     2  0 20:10 ?        00:00:00 [scsi_eh_0]
+root       102     2  0 20:10 ?        00:00:00 [scsi_tmf_0]
+root       103     2  0 20:10 ?        00:00:00 [scsi_eh_1]
+root       104     2  0 20:10 ?        00:00:00 [scsi_tmf_1]
+root       106     2  0 20:10 ?        00:00:00 [scsi_eh_2]
+root       107     2  0 20:10 ?        00:00:00 [scsi_tmf_2]
+root       108     2  0 20:10 ?        00:00:00 [scsi_eh_3]
+root       109     2  0 20:10 ?        00:00:00 [scsi_tmf_3]
+root       113     2  0 20:10 ?        00:00:00 [kworker/3:2]
+root       117     2  0 20:10 ?        00:00:00 [ipv6_addrconf]
+root       126     2  0 20:10 ?        00:00:00 [kstrp]
+root       143     2  0 20:10 ?        00:00:00 [charger_manager]
+root       146     2  0 20:10 ?        00:00:00 [kworker/3:1H]
+root       195     2  0 20:10 ?        00:00:00 [kworker/2:1H]
+root       199     2  0 20:10 ?        00:00:00 [nvkm-disp]
+root       200     2  0 20:10 ?        00:00:00 [i915/signal:0]
+root       201     2  0 20:10 ?        00:00:00 [i915/signal:1]
+root       202     2  0 20:10 ?        00:00:00 [i915/signal:2]
+root       203     2  0 20:10 ?        00:00:00 [ttm_swap]
+root       225     2  0 20:10 ?        00:00:00 [jbd2/sda2-8]
+root       226     2  0 20:10 ?        00:00:00 [ext4-rsv-conver]
+root       244     2  0 20:10 ?        00:00:00 [kworker/1:1H]
+root       258     2  0 20:10 ?        00:00:00 [kworker/0:1H]
+root       261     1  0 20:10 ?        00:00:00 /lib/systemd/systemd-journald
+root       303     2  0 20:10 ?        00:00:00 [loop0]
+root       307     2  0 20:10 ?        00:00:00 [loop1]
+root       309     2  0 20:10 ?        00:00:00 [loop2]
+root       311     2  0 20:10 ?        00:00:00 [loop3]
+root       312     1  0 20:10 ?        00:00:00 /lib/systemd/systemd-udevd
+root       313     2  0 20:10 ?        00:00:00 [loop4]
+root       314     2  0 20:10 ?        00:00:00 [loop5]
+root       361     2  0 20:11 ?        00:00:00 [irq/27-mei_me]
+root       400     2  0 20:11 ?        00:00:00 [cfg80211]
+root       628     2  0 20:11 ?        00:00:00 [kmemstick]
+systemd+   729     1  0 20:11 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root       861     1  0 20:11 ?        00:00:00 /lib/systemd/systemd-logind
+root       865     1  0 20:11 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       867     1  0 20:11 ?        00:00:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root       868     1  0 20:11 ?        00:00:00 /usr/sbin/cron -f
+message+   873     1  0 20:11 ?        00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       908     1  0 20:11 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+avahi      910     1  0 20:11 ?        00:00:00 avahi-daemon: running [shashi.local]
+syslog     918     1  0 20:11 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       919     1  0 20:11 ?        00:00:00 /usr/sbin/acpid
+root       921     1  0 20:11 ?        00:00:01 /usr/lib/snapd/snapd
+root       992     1  0 20:11 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      993   910  0 20:11 ?        00:00:00 avahi-daemon: chroot helper
+root      1008     1  0 20:11 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1027     1  0 20:11 ?        00:00:00 /usr/sbin/lightdm
+root      1036  1027  0 20:11 tty7     00:00:44 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1055     1  0 20:11 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1068     1  0 20:11 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1168  1027  0 20:11 ?        00:00:00 lightdm --session-child 12 19
+rtkit     1231     1  0 20:11 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+whoopsie  1254     1  0 20:11 ?        00:00:00 /usr/bin/whoopsie -f
+root      1273     1  0 20:11 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      1281     2  0 20:11 ?        00:00:00 [iprt-VBoxWQueue]
+root      1286     2  0 20:11 ?        00:00:00 [iprt-VBoxTscThr]
+minidlna  1322     1  0 20:11 ?        00:00:00 /usr/sbin/minidlnad -f /etc/minidlna.conf -P /run/minidlna/minidlna.pid
+shashi    1483     1  0 20:11 ?        00:00:00 /lib/systemd/systemd --user
+shashi    1484  1483  0 20:11 ?        00:00:00 (sd-pam)
+shashi    1489     1  0 20:11 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+shashi    1491  1168  0 20:11 ?        00:00:00 /sbin/upstart --user
+root      1515   908  0 20:11 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp3s0.pid -lf /var/lib/NetworkManager/dhclient-aa934bca-370b-4fe7-b6cb-400fbdea2157-wlp3s0.lease -cf /var/lib/NetworkManager/dhclient-wlp3s0.conf wlp3s0
+nobody    1574   908  0 20:11 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+shashi    1633  1491  0 20:11 ?        00:00:00 upstart-udev-bridge --daemon --user
+shashi    1641  1491  0 20:11 ?        00:00:03 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-6Kv1wbzyjE
+shashi    1653  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+shashi    1688  1491  0 20:11 ?        00:00:07 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+shashi    1692  1491  0 20:11 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+shashi    1695  1491  0 20:11 ?        00:00:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+shashi    1701  1491  0 20:11 ?        00:00:00 upstart-file-bridge --daemon --user
+shashi    1705  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfsd
+shashi    1710  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+shashi    1719  1688  0 20:11 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+shashi    1720  1688  0 20:11 ?        00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+shashi    1722  1491  0 20:11 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+shashi    1733  1688  0 20:11 ?        00:00:02 /usr/lib/ibus/ibus-engine-simple
+shashi    1853  1491  0 20:11 ?        00:00:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+shashi    1860  1491  0 20:11 ?        00:00:00 gpg-agent --homedir /home/shashi/.gnupg --use-standard-socket --daemon
+shashi    1870  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+shashi    1872  1491  0 20:11 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+shashi    1879  1491  0 20:11 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+shashi    1880  1491  0 20:11 ?        00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+shashi    1890  1879  0 20:11 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+shashi    1895  1491  0 20:11 ?        00:00:11 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+shashi    1914  1491  0 20:11 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+shashi    1918  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+shashi    1919  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+shashi    1920  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+shashi    1930  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+shashi    1931  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+shashi    1932  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+shashi    1933  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+shashi    1934  1491  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+shashi    1947  1491  0 20:11 ?        00:00:02 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+shashi    1966  1491  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+shashi    1978  1491  0 20:11 ?        00:00:00 /usr/lib/dconf/dconf-service
+root      1994     1  0 20:11 ?        00:00:00 /usr/lib/upower/upowerd
+shashi    1997  1491  0 20:11 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+shashi    2023  1491  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+shashi    2055  1491  0 20:11 ?        00:01:02 compiz
+shashi    2056  1880  0 20:11 ?        00:00:03 /usr/bin/gnome-software --gapplication-service
+shashi    2057  1880  0 20:11 ?        00:00:02 nm-applet
+shashi    2059  1880  0 20:11 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+shashi    2060  1880  0 20:11 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+shashi    2061  1880  0 20:11 ?        00:00:06 nautilus -n
+shashi    2064  1880  0 20:11 ?        00:00:16 indicator-netspeed-unity
+shashi    2091  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      2109     1  0 20:11 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+shashi    2117  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+shashi    2122  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+shashi    2127  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+shashi    2133  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+colord    2134     1  0 20:11 ?        00:00:00 /usr/lib/colord/colord
+shashi    2135  1872  0 20:11 ?        00:00:00 syndaemon -i 1.0 -t -K -R
+root      2157     1  0 20:11 ?        00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+shashi    2176  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+shashi    2183  2023  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2023x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2023/2
+shashi    2194  1491  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+shashi    2196  2023  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx2023x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/2023/3
+shashi    2203  2194  0 20:11 ?        00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2194x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2194/2
+shashi    2235  1491  0 20:11 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+shashi    2269  1880  0 20:12 ?        00:00:00 zeitgeist-datahub
+shashi    2276  1491  0 20:12 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+shashi    2280  2276  0 20:12 ?        00:00:00 /usr/bin/zeitgeist-daemon
+shashi    2288  1491  0 20:12 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+shashi    2309  1491  0 20:12 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.4 /org/gtk/gvfs/exec_spaw/1
+shashi    2340  1491  0 20:12 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.4 /org/gtk/gvfs/exec_spaw/5
+shashi    2388  1880  0 20:12 ?        00:00:00 update-notifier
+shashi    2855  1880  0 20:13 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      2969     2  0 20:16 ?        00:00:00 [kworker/1:0]
+root      2972     1  0 20:16 ?        00:00:00 /usr/sbin/cupsd -l
+root      2973     1  0 20:16 ?        00:00:00 /usr/sbin/cups-browsed
+lp        2974  2972  0 20:16 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp        2975  2972  0 20:16 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root      3079     2  0 20:26 ?        00:00:00 [kworker/3:0]
+root      3080     2  0 20:26 ?        00:00:00 [kworker/0:1]
+shashi    3131  1491  0 20:37 ?        00:00:10 /usr/lib/gnome-terminal/gnome-terminal-server
+shashi    3138  3131  0 20:37 pts/4    00:00:00 bash
+shashi    3190  3131  0 20:40 pts/7    00:00:00 bash
+root      3324     2  0 21:03 ?        00:00:01 [kworker/u16:1]
+root      3335     2  0 21:08 ?        00:00:02 [kworker/u16:0]
+root      3349     2  0 21:10 ?        00:00:00 [kworker/2:0]
+shashi    3398  3190  0 21:13 pts/7    00:00:00 man getuid
+shashi    3410  3398  0 21:13 pts/7    00:00:00 pager
+root      3532     2  0 21:47 ?        00:00:00 [kworker/u16:2]
+root      3596     2  0 21:59 ?        00:00:00 [kworker/0:2]
+shashi    3626  3138  0 22:03 pts/4    00:00:00 ps -ef

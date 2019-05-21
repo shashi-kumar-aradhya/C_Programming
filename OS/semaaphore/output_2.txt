@@ -1,0 +1,554 @@
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 1
+sema_wait : mutex : function name : reader, Line number : 34
+sema_wait : writeblock : function name : reader, Line number : 37
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 2
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 3
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 4
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 5
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 6
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 7
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 8
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 9
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 10
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 11
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 12
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 13
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 14
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 15
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 16
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 17
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 18
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 19
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 20
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 21
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 22
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 23
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 24
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 25
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 26
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 27
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 28
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 29
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 30
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 31
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 32
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 33
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 34
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 35
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 36
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 37
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 38
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 39
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 40
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 41
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 0 is 42
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 43
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 44
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 45
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 46
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 47
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 48
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 49
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 50
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 51
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 52
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 53
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 54
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 55
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 56
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 57
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 58
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 59
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 60
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 61
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 62
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 63
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 64
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 65
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 66
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 67
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 68
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 69
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 70
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 71
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 72
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 73
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 74
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 75
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 76
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 77
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 78
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 79
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 80
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 81
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 82
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 83
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 84
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 85
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 86
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 87
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 88
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 89
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 90
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 91
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 92
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 93
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 94
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 95
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 96
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 97
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 98
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 1 is 99
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 100
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 101
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 102
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 103
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 104
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 105
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 106
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 107
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 108
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 109
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 110
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 111
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 112
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 113
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 114
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 115
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 116
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 117
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 118
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 119
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 120
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 121
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 122
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 123
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 124
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 125
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 126
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 127
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 128
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 129
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 130
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 131
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 132
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 133
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 134
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 135
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 136
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 137
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 138
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 139
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 140
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 141
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 142
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 143
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 144
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 145
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 146
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 147
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 2 is 148
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 149
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 150
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 151
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 152
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 153
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 154
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 155
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 156
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 157
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 158
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 159
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 160
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 161
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 162
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 163
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 164
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 165
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 166
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 167
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 168
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 169
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 170
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 171
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 172
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 173
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 174
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 175
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 176
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 177
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 178
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 179
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 180
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 181
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 182
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 183
+sema_post : writeblock : function name : writer, Line number : 67
+sema_wait : writeblock : function name : writer, Line number : 63
+Thread : Data writen by the writer : 3 is 184
+sema_post : writeblock : function name : writer, Line number : 

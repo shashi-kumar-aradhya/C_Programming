@@ -1,0 +1,1000 @@
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer0 is 1
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer2 is 2
+sema_post : writeblock : function name : writer, Line number : 60
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader0 is 2
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader1 is 2
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer1 is 3
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader2 is 3
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer3 is 4
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader3 is 4
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer4 is 5
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader4 is 5
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer5 is 6
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader5 is 6
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer6 is 7
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader6 is 7
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer7 is 8
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer8 is 9
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader7 is 9
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader8 is 9
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer9 is 10
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader9 is 10
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer10 is 11
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader10 is 11
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer11 is 12
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader11 is 12
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer12 is 13
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader12 is 13
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer13 is 14
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader13 is 14
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer14 is 15
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader14 is 15
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer15 is 16
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader15 is 16
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer16 is 17
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader16 is 17
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer17 is 18
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader17 is 18
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer18 is 19
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader18 is 19
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer19 is 20
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader19 is 20
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer20 is 21
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader20 is 21
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer21 is 22
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader21 is 22
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer22 is 23
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader22 is 23
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer23 is 24
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader23 is 24
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer24 is 25
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader24 is 25
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer25 is 26
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader25 is 26
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer26 is 27
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader26 is 27
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer27 is 28
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader27 is 28
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer28 is 29
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader28 is 29
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer29 is 30
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader29 is 30
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer30 is 31
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader30 is 31
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer31 is 32
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader31 is 32
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer32 is 33
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader32 is 33
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer33 is 34
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader33 is 34
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer34 is 35
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader34 is 35
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer35 is 36
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader35 is 36
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer36 is 37
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader36 is 37
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer37 is 38
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader37 is 38
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer38 is 39
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader38 is 39
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer39 is 40
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader39 is 40
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer40 is 41
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader40 is 41
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer41 is 42
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader41 is 42
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer42 is 43
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader42 is 43
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer43 is 44
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader43 is 44
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer44 is 45
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader44 is 45
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer45 is 46
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader45 is 46
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer46 is 47
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader46 is 47
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer47 is 48
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader47 is 48
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer48 is 49
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader48 is 49
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer49 is 50
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader49 is 50
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer50 is 51
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader50 is 51
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer51 is 52
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader51 is 52
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer52 is 53
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader52 is 53
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer53 is 54
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader53 is 54
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer54 is 55
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader54 is 55
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer55 is 56
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader55 is 56
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer56 is 57
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader56 is 57
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer57 is 58
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader57 is 58
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer58 is 59
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader58 is 59
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer59 is 60
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader59 is 60
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer60 is 61
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader60 is 61
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer61 is 62
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader61 is 62
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer62 is 63
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader62 is 63
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer63 is 64
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader63 is 64
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer64 is 65
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader64 is 65
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer65 is 66
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader65 is 66
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer66 is 67
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader66 is 67
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer67 is 68
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader67 is 68
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer68 is 69
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader68 is 69
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer69 is 70
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader69 is 70
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer70 is 71
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader70 is 71
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer71 is 72
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader71 is 72
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer72 is 73
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader72 is 73
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer73 is 74
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader73 is 74
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader74 is 74
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader75 is 74
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer76 is 75
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader76 is 75
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer75 is 76
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer77 is 77
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader77 is 77
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer78 is 78
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer74 is 79
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader78 is 79
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer79 is 80
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader79 is 80
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer80 is 81
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader80 is 81
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer81 is 82
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader81 is 82
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer82 is 83
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader82 is 83
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer83 is 84
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader83 is 84
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer84 is 85
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader84 is 85
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer85 is 86
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader85 is 86
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer86 is 87
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader86 is 87
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer87 is 88
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader87 is 88
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer88 is 89
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader88 is 89
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer89 is 90
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader89 is 90
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer90 is 91
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader90 is 91
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer91 is 92
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader91 is 92
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer92 is 93
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader92 is 93
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer93 is 94
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader93 is 94
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer94 is 95
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader94 is 95
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer95 is 96
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader95 is 96
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer96 is 97
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader96 is 97
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer97 is 98
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader97 is 98
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer98 is 99
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader98 is 99
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46
+sema_wait : writeblock : function name : writer, Line number : 56
+Thread : Data writen by the writer99 is 100
+sema_post : writeblock : function name : writer, Line number : 60
+sema_wait : mutex : function name : reader, Line number : 29
+sema_wait : writeblock : function name : reader, Line number : 32
+sema_post : mutex : function name : reader, Line number : 35
+Thread : Data read by the reader99 is 100
+sema_wait : mutex : function name : reader, Line number : 40
+sema_post : writeblock : function name : reader, Line number : 43
+sema_post : mutex : function name : reader, Line number : 46

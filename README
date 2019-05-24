@@ -52,3 +52,7 @@ https://www.claudiokuenzler.com/blog/756/install-newer-ninja-build-tools-ubuntu-
 
 GCC compilations :
 https://gcc.gnu.org/onlinedocs/gcc-4.8.0/gcc/Option-Index.html
+
+
+#Thread pool example:
+https://github.com/Pithikos/C-Thread-Pool.git

@@ -5,5 +5,6 @@
 struct Memory {
      int  status;
      int  data[4];
+//     void *data;
 };
 

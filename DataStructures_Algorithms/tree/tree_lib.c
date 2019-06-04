@@ -117,9 +117,9 @@ node *delete(node *root, int value)
 		{
 			temp = root;
 			if(NULL == root->lchild)
-				root = root->lchild;
-			else if(NULL == root->rchild)
 				root = root->rchild;
+			else if(NULL == root->rchild)
+				root = root->lchild;
 			else
 				root = NULL;
 			free(temp);
@@ -129,42 +129,43 @@ node *delete(node *root, int value)
 }
 int main(int argc, char *argv[])
 {
-	int num_ele= atoi(argv[1]);
-	node *root = NULL;
-	int i = 0;
-	int store_value;
-	int del;
-	for(i = 0; i < num_ele; i++)
-	{
-		store_value = rand() %100;
-		insert(&root, store_value);
-	}
-	printf("Preorder : ");
-	preorder(root);
-	printf("\n");	
-	printf("Inorder : ");
-	inorder(root);
-	printf("\n");	
-	printf("Postorder : ");
-	postorder(root);
-	printf("\n");	
-	for(i = 0; i < 5; i++)
-	{
-		printf("Enter the ele to be deleted : ");
-		scanf("%d", &del);
-		root = delete(root, del);
-		printf("Preorder : ");
-		preorder(root);
-		printf("\n");	
-		printf("Inorder : ");
-		inorder(root);
-		printf("\n");	
-		printf("Postorder : ");
-		postorder(root);
-		printf("\n");	
-		fflush(stdin);
-	}
-	return 0;
+        int num_ele= atoi(argv[1]);
+        node *root = NULL;
+        int i = 0;
+        int del;
+        for(i = 0; i < num_ele; i++)
+        {
+//                store_value = rand() %100;
+               printf("Enter the ele to be inserted : ");
+               scanf("%d", &del);
+               insert(&root, del);
+               fflush(stdin);
+        }
+        printf("Preorder : ");
+        preorder(root);
+        printf("\n");
+        printf("Inorder : ");
+        inorder(root);
+        printf("\n");
+        printf("Postorder : ");
+        postorder(root);
+        printf("\n");
+        for(i = 0; i < num_ele/2; i++)
+        {
+               printf("Enter the ele to be deleted : ");
+                scanf("%d", &del);
+                root = delete(root, del);
+                printf("Preorder : ");
+                preorder(root);
+                printf("\n");
+                printf("Inorder : ");
+                inorder(root);
+                printf("\n");
+                printf("Postorder : ");
+                postorder(root);
+                printf("\n");
+                fflush(stdin);
+        }
+        return 0;
 }
-
 

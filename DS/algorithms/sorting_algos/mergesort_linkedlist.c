@@ -55,10 +55,9 @@ int main(int argc, char *argv[])
 	int ran_val;
 	int MAX = 10;
 	int *ptr = NULL;
-	int ptr_count = 0;
 	if (argc > 1)
 		MAX = atoi(argv[1]);
-	printf("int total = %d\n", ((MAX / (sizeof(int) * 8)) + 1));
+	printf("int total = %ld\n", ((MAX / (sizeof(int) * 8)) + 1));
 	ptr = (int *) malloc((MAX / (sizeof(int) * 8) + 1));
 	list *head = NULL; 
 	int div, rem;

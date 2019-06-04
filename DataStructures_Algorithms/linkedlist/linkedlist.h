@@ -8,7 +8,8 @@ typedef struct list{
 }list;
 
 STATUS_CODES create(list *head);
-STATUS_CODES insert_front(list **head, list *  head);
+STATUS_CODES insert_front(list *insert, list **  head);
+STATUS_CODES insert_rear(list *insert, list **  head);
 
 
 #endif

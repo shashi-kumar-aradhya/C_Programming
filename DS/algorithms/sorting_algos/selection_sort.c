@@ -33,7 +33,6 @@ int main()
     int i=0;
     int j = 0;
     int index;
-    int small;
 
     printf("Enter the number of elements in the array : ");
     scanf("%d", &size);
@@ -47,16 +46,17 @@ int main()
 
     /* Algorithm implementation */
     for (i = 0; i < size; i++) {
-        small = ptr[i];
-        index = 0;
+//        small = ptr[i];
+  //      index = 0;
+	index = i;
         for(j = i+1; j < size; j++) {
-            if(ptr[j] < small) 
+            if(ptr[j] < ptr[index]) 
             {
-                small = ptr[j];
+               // small = ptr[j];
                 index = j;
             }
         }
-        if(index != 0) {
+        if(index != i) {
             swap(ptr, i, index);
             printf("Iteration = %d Array elements = ", i);
             display(ptr, size);

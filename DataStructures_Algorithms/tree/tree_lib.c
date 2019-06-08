@@ -14,7 +14,8 @@ typedef struct tree
 void preorder(node *);
 void inrder(node *);
 void postorder(node *);
-
+void iterativePreorder(node *root);
+void iterativeInorder (node *root);
 
 void insert(node **root, int value)
 {
@@ -127,6 +128,20 @@ node *delete(node *root, int value)
 	}
 	return root;
 }
+
+/* This function traverses tree in post order to delete each  and every node of the tree */
+void deleteTree(node* node)  
+{  
+    if (node == NULL) return;  
+  
+    /* first delete both subtrees */
+    deleteTree(node->left);  
+    deleteTree(node->right);  
+      
+    /* then delete the node */
+    cout << "\n Deleting node: " << node->data;  
+    free(node);  
+}
 int main(int argc, char *argv[])
 {
         int num_ele= atoi(argv[1]);
@@ -144,8 +159,15 @@ int main(int argc, char *argv[])
         printf("Preorder : ");
         preorder(root);
         printf("\n");
+        printf("Preorder Iterative: ");
+	iterativePreorder(root);
+        printf("\n");
         printf("Inorder : ");
         inorder(root);
+        printf("\n");
+
+        printf("Inorder(Iterative) : ");
+	iterativeInorder (root);
         printf("\n");
         printf("Postorder : ");
         postorder(root);
@@ -158,9 +180,15 @@ int main(int argc, char *argv[])
                 printf("Preorder : ");
                 preorder(root);
                 printf("\n");
+        	printf("Preorder Iterative: ");
+		iterativePreorder(root);
+        	printf("\n");
                 printf("Inorder : ");
                 inorder(root);
                 printf("\n");
+        	printf("Inorder(Iterative) : ");
+		iterativeInorder (root);
+        	printf("\n");
                 printf("Postorder : ");
                 postorder(root);
                 printf("\n");

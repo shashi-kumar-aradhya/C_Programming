@@ -3,8 +3,9 @@
 #set -u
 #set -o pipefail
 
-CC=/home/shashi/dabba/beagleboneblack_linux/bb-kernel/dl/gcc-linaro-6.4.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
 echo "hello CC=${CC}"
+cd "./KERNEL" || exit
+
 while getopts 'dcgy:' OPTION; do
   case "$OPTION" in
     d)
@@ -22,8 +23,9 @@ while getopts 'dcgy:' OPTION; do
       rm -rf .defconfig.txt
       now=$(date +"%T")
       echo "defconfig start --> Current time : $now"
-      echo "make ARCH=arm CROSS_COMPILE=${CC} shashi_bbb_defconfig"
-      make ARCH=arm CROSS_COMPILE=${CC} shashi_bbb_defconfig &> .defconfig.txt
+      echo "make ARCH=arm CROSS_COMPILE=${CC} omap2plus_defconfig"
+      make ARCH=arm CROSS_COMPILE=${CC} omap2plus_defconfig &> .defconfig.txt
+      make ARCH=arm CROSS_COMPILE="${CC}" menuconfig
       echo "def config successful"
       now=$(date +"%T")
       echo "defconfig end --> Current time : $now"

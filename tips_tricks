@@ -13,17 +13,20 @@ git show <commit-id>
 
 git log --follow --filename
 
-find ./* -regex '.*\.\(c\|h\|S\|s\)$' > cscope.files
-cscope -q -b -k
-
-https://superuser.com/questions/702913/how-to-delete-all-hidden-swp-files-from-terminal/702918
-
 git format-patch -n
 
 git reset --mixed <commit-id of n-1 th commit >
 git push -f origin <localbranch/commit id>:remote branch
 
+Cscope : 
+find ./* -regex '.*\.\(c\|h\|S\|s\)$' > cscope.files
+cscope -q -b -k
+
+https://superuser.com/questions/702913/how-to-delete-all-hidden-swp-files-from-terminal/702918
+find . -type f -name "*.swp" -exec rm -f {} \;
+
 https://www.networkworld.com/article/3438857/how-to-remove-carriage-returns-from-text-files-on-linux.html
 find -maxdepth 1 -type f -exec bach -c '<<<"$(<{})"tr -d "\r" > {}'\;
 
 https://stackoverflow.com/questions/2113111/how-can-i-search-and-replace-recursively-in-a-directory-in-vim
+

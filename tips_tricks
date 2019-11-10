@@ -1,0 +1,28 @@
+To get Repo details :
+ git remote show origin
+ git config --get remote.origin.url
+ 
+To See tracking branch :
+git branch -vv
+
+https://stackoverflow.com/questions/4259996/how-can-i-view-a-git-log-of-just-one-users-commits
+
+https://stackoverflow.com/questions/16190387/when-applying-a-patch-is-there-any-way-to-resolve-conflicts
+
+git show <commit-id>
+
+git log --follow --filename
+
+find ./* -regex '.*\.\(c\|h\|S\|s\)$' > cscope.files
+cscope -q -b -k
+
+https://superuser.com/questions/702913/how-to-delete-all-hidden-swp-files-from-terminal/702918
+
+git format-patch -n
+
+git reset --mixed <commit-id of n-1 th commit >
+git push -f origin <localbranch/commit id>:remote branch
+
+https://www.networkworld.com/article/3438857/how-to-remove-carriage-returns-from-text-files-on-linux.html
+find -maxdepth 1 -type f -exec bach -c '<<<"$(<{})"tr -d "\r" > {}'\;
+
